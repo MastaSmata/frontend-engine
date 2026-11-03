@@ -1,0 +1,9 @@
+{
+  "id": "navigation.editorial-centered",
+  "name": "Editorial centered navigation",
+  "type": "navigation",
+  "template": "navigation.html",
+  "style": "navigation.css",
+  "schema": "schema.json",
+  "script": "component.js"
+}

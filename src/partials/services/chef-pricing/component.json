@@ -1,0 +1,10 @@
+{
+  "id": "services.chef-pricing",
+  "name": "Chef service pricing",
+  "type": "services",
+  "template": "services.html",
+  "style": "services.css",
+  "schema": "schema.json",
+  "script": "component.js",
+  "requiresData": ["services"]
+}

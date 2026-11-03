@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"required":["links"],"properties":{"label":{"type":"string"},"links":{"type":"array","items":{"type":"object","required":["label","href","icon"],"properties":{"label":{"type":"string"},"href":{"type":"string"},"icon":{"type":"string","enum":["instagram","facebook","whatsapp"]}},"additionalProperties":false}}}}

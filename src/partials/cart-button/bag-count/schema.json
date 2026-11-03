@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "label": { "type": "string" },
+    "icon": { "type": "string" }
+  }
+}

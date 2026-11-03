@@ -1,0 +1,181 @@
+[
+  {
+    "id": "prod-01",
+    "title": "ARCHIVAL CASHMERE OVERCOAT",
+    "category": "Outerwear",
+    "price": 1250,
+    "image": "/images/products/pic2.jpg",
+    "badge": "LIMITED EDITION",
+    "description": "Heavyweight deadstock cashmere cut into a long, architectural line.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/pic2.jpg"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "stone"
+    ],
+    "sizes": [
+      "L",
+      "XL",
+      "M"
+    ],
+    "care": [
+      "Dry clean only by a specialist cleaner",
+      "Store on a broad hanger and protect from direct heat",
+      "Steam lightly from a safe distance"
+    ]
+  },
+
+
+  {
+    "id": "prod-02",
+    "title": "STRUCTURED WOOL TROUSERS",
+    "category": "Tailoring",
+    "price": 480,
+    "image": "/images/products/pic3.png",
+    "badge": "RUNWAY",
+    "description": "High-waisted trousers in structural wool with a sharp, weighted drape.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/pic3.png"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "stone"
+    ],
+    "sizes": [
+      "L",
+      "XL",
+      "M"
+    ],
+    "care": [
+      "Dry clean only",
+      "Press gently on the reverse side",
+      "Hang folded at the waistband"
+    ]
+  },
+
+  
+  {
+    "id": "prod-03",
+    "title": "MOLTEN SILVER COLLAR",
+    "category": "Jewelry",
+    "price": 350,
+    "image": "/images/products/pic5.jpeg",
+    "badge": "HANDCRAFTED",
+    "description": "A hand-cast silver collar with a molten, sculpted finish.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/pic5.jpeg"
+    ],
+    "colors": [
+      "silver",
+      "black",
+      "gold"
+    ],
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "care": [
+      "Polish with a soft jewellery cloth",
+      "Avoid prolonged contact with water and chemicals",
+      "Store separately to preserve the finish"
+    ]
+  },
+  {
+    "id": "prod-04",
+    "title": "DECONSTRUCTED SILK SHIRT",
+    "category": "Essentials",
+    "price": 400,
+    "image": "/images/products/pic1.png",
+    "badge": "NEW",
+    "description": "Silk shirting rebuilt from archive patterns with exposed structure.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/pic1.png"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "stone"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "care": [
+      "Dry clean recommended",
+      "Steam on low heat from the reverse",
+      "Fold flat when storing"
+    ]
+  },
+  {
+    "id": "prod-05",
+    "title": "MONOLITH LEATHER BOOTS",
+    "category": "Footwear",
+    "price": 890,
+    "image": "/images/products/pic14.png",
+    "badge": "ARCHIVE",
+    "description": "Sculpted leather boots on a monolithic sole.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/pic14.png"
+    ],
+    "colors": [
+      "black",
+      "brown",
+      "stone"
+    ],
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "care": [
+      "Wipe with a soft dry cloth",
+      "Condition leather periodically",
+      "Allow to air dry naturally away from heat"
+    ]
+  },
+  {
+    "id": "prod-06",
+    "title": "ORGANIC PLEATED MAXI DRESS",
+    "category": "Dresses",
+    "price": 720,
+    "image": "/images/products/pic7.jpeg",
+    "badge": "BESTSELLER",
+    "description": "Organic-fiber maxi dress with fine, permanent pleating.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/pic7.jpeg"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "stone"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "care": [
+      "Dry clean or specialist hand clean",
+      "Do not iron directly over pleats",
+      "Hang vertically to preserve shape"
+    ]
+  }
+]

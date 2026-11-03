@@ -1,0 +1,1 @@
+{"id":"product-gallery.thumbnails","name":"Product image gallery with thumbnails","type":"product-gallery","template":"gallery.html","style":"gallery.css","schema":"schema.json","script":"component.js"}

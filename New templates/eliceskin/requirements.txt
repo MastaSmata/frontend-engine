@@ -1,0 +1,1 @@
+# No Python dependencies. Elice SKincare is a Vite + Vanilla JavaScript + HTML + CSS storefront.

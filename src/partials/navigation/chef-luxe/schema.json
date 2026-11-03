@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["brand", "links", "bookingLabel", "bookingHref"],
+  "properties": {
+    "brand": { "type": "string", "minLength": 1 },
+    "links": { "type": "array", "items": { "type": "object", "required": ["label", "href"], "properties": { "label": { "type": "string" }, "href": { "type": "string" } }, "additionalProperties": false } },
+    "bookingLabel": { "type": "string", "minLength": 1 },
+    "bookingHref": { "type": "string", "minLength": 1 }
+  }
+}

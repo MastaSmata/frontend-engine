@@ -1,0 +1,8 @@
+{
+  "id": "cart-button.bag-count",
+  "name": "Bag count button",
+  "type": "object",
+  "template": "cart-button.html",
+  "style": "cart-button.css",
+  "schema": "schema.json"
+}

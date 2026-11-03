@@ -1,0 +1,5 @@
+.marquee { overflow: hidden; padding: 15px 0; background: var(--purple); color: var(--cyan); }
+.marquee-track { display: flex; width: max-content; animation: marquee 24s linear infinite; }
+.marquee-item { display: inline-flex; align-items: center; gap: 22px; padding-right: 22px; font: 500 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; }
+.marquee-item::after { content: '✦'; color: var(--white); }
+@keyframes marquee { to { transform: translateX(-50%); } }

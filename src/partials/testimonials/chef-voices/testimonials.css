@@ -1,0 +1,11 @@
+[data-component-id="testimonials.chef-voices"] .chef-testimonials { padding:clamp(4rem,8vw,8rem) clamp(1.25rem,7vw,7rem); background:#0a0a0c; color:#f8f5ee; }
+[data-component-id="testimonials.chef-voices"] .chef-testimonials__heading { max-width:50rem; margin:0 auto 2.6rem; text-align:center; }
+[data-component-id="testimonials.chef-voices"] .chef-testimonials__heading p { color:#d4af37; font-size:.68rem; letter-spacing:.22em; text-transform:uppercase; }
+[data-component-id="testimonials.chef-voices"] h2 { margin:.7rem 0 0; font:400 clamp(2.6rem,5.5vw,5rem)/.95 var(--font-heading); }
+[data-component-id="testimonials.chef-voices"] .chef-testimonials__grid { width:min(100%,1320px); margin:auto; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+[data-component-id="testimonials.chef-voices"] figure { margin:0; padding:1.5rem; border:1px solid rgb(212 175 55 / .2); background:#17181b; }
+[data-component-id="testimonials.chef-voices"] blockquote { margin:0 0 1.5rem; color:rgb(248 245 238 / .84); font:400 1.3rem/1.35 var(--font-heading); }
+[data-component-id="testimonials.chef-voices"] figcaption { display:grid; gap:.25rem; }
+[data-component-id="testimonials.chef-voices"] figcaption strong { color:#d4af37; font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; }
+[data-component-id="testimonials.chef-voices"] figcaption span { color:rgb(248 245 238 / .55); font-size:.7rem; }
+@media(max-width:760px) { [data-component-id="testimonials.chef-voices"] .chef-testimonials__grid { grid-template-columns:1fr; max-width:34rem; } }

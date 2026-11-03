@@ -1,0 +1,9 @@
+{
+  "id": "media.video-frame",
+  "name": "Lazy video frame",
+  "type": "media",
+  "template": "video.html",
+  "style": "video.css",
+  "schema": "schema.json",
+  "script": "component.js"
+}

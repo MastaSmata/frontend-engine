@@ -1,0 +1,16 @@
+.collection-visual { position: relative; overflow: hidden; aspect-ratio: 1 / 1; border-radius: var(--radius-lg); background: var(--purple-deep); box-shadow: var(--shadow); isolation: isolate; }
+.collection-slides, .collection-slide, .collection-slide img, .collection-visual-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.collection-slide { margin: 0; opacity: 0; transform: scale(1.035); transition: opacity .7s ease, transform 4.8s ease; }
+.collection-slide.is-active { opacity: 1; transform: scale(1); }
+.collection-slide img { object-fit: cover; }
+.collection-visual-shade { z-index: 1; background: linear-gradient(180deg, rgba(32,19,77,.02) 28%, rgba(32,19,77,.82) 100%); pointer-events: none; }
+.collection-typewriter { position: absolute; z-index: 2; left: 18px; right: 18px; bottom: 26px; margin: 0; color: var(--white); font-size: clamp(2rem, 10vw, 5.8rem); line-height: .94; letter-spacing: -.065em; }
+.typewriter-cursor { display: inline-block; width: .06em; height: .82em; margin-left: .12em; vertical-align: -.03em; background: var(--cyan); animation: typewriter-blink .9s steps(1, end) infinite; }
+.collection-slide-count { position: absolute; z-index: 2; right: 18px; top: 18px; color: var(--white); font: 500 10px var(--mono); letter-spacing: .1em; }
+@keyframes typewriter-blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+
+@media (min-width: 780px) {
+  .collection-visual { aspect-ratio: 16 / 8; }
+  .collection-typewriter { left: 34px; right: 34px; bottom: 34px; }
+  .collection-slide-count { right: 34px; top: 28px; }
+}

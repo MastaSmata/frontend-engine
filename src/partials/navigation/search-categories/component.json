@@ -1,0 +1,8 @@
+{
+  "id": "navigation.search-categories",
+  "name": "Search and categories navigation",
+  "type": "navigation",
+  "template": "navigation.html",
+  "style": "navigation.css",
+  "schema": "schema.json"
+}

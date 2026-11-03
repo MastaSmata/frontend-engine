@@ -1,0 +1,115 @@
+[
+  {
+    "id": "halo-wave",
+    "name": "Halo Wave",
+    "category": "Lace Front",
+    "length": "22\"",
+    "color": "Espresso",
+    "price": 456000,
+    "badge": "Bestseller",
+    "description": "Soft, weightless waves with a believable hairline and effortless movement.",
+    "image": "/images/products/halo-wave.jpg",
+    "sizes": [
+      "22\"",
+      "24\""
+    ],
+    "colors": [
+      "Espresso",
+      "Natural Black"
+    ]
+  },
+  {
+    "id": "soft-kink",
+    "name": "Soft Kink",
+    "category": "Curly",
+    "length": "16\"",
+    "color": "Natural Black",
+    "price": 384000,
+    "badge": "New",
+    "description": "A plush, touchable curl pattern with the ease of an everyday favorite.",
+    "image": "/images/products/soft-kink.jpg",
+    "sizes": [
+      "16\"",
+      "18\""
+    ],
+    "colors": [
+      "Natural Black",
+      "Chestnut"
+    ]
+  },
+  {
+    "id": "muse-bob",
+    "name": "Muse Bob",
+    "category": "Lace Front",
+    "length": "12\"",
+    "color": "Chestnut",
+    "price": 336000,
+    "badge": "Editor\u2019s pick",
+    "description": "A polished, collar-grazing bob cut for the days you want a clean line.",
+    "image": "/images/products/soft-kink.jpg",
+    "sizes": [
+      "12\""
+    ],
+    "colors": [
+      "Chestnut",
+      "Espresso"
+    ]
+  },
+  {
+    "id": "air-glow",
+    "name": "Air Glow",
+    "category": "Glueless",
+    "length": "18\"",
+    "color": "Espresso",
+    "price": 416000,
+    "badge": "Easy wear",
+    "description": "A lightweight glueless fit that slips on beautifully and stays put.",
+    "image": "/images/products/halo-wave.jpg",
+    "sizes": [
+      "18\"",
+      "20\""
+    ],
+    "colors": [
+      "Espresso",
+      "Natural Black"
+    ]
+  },
+  {
+    "id": "curl-muse",
+    "name": "Curl Muse",
+    "category": "Curly",
+    "length": "18\"",
+    "color": "Chestnut",
+    "price": 398000,
+    "badge": "New",
+    "description": "Defined, airy curls with a soft silhouette and easy everyday volume.",
+    "image": "/images/products/soft-kink.jpg",
+    "sizes": [
+      "18\"",
+      "20\""
+    ],
+    "colors": [
+      "Chestnut",
+      "Natural Black"
+    ]
+  },
+  {
+    "id": "everyday-ease",
+    "name": "Everyday Ease",
+    "category": "Glueless",
+    "length": "20\"",
+    "color": "Natural Black",
+    "price": 432000,
+    "badge": "Easy wear",
+    "description": "A lightweight glueless fit with a smooth, natural finish for daily wear.",
+    "image": "/images/products/halo-wave.jpg",
+    "sizes": [
+      "20\"",
+      "22\""
+    ],
+    "colors": [
+      "Natural Black",
+      "Espresso"
+    ]
+  }
+]

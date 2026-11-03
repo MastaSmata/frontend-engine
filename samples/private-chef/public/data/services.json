@@ -1,0 +1,89 @@
+{
+  "currency": "NGN",
+  "services": [
+    {
+      "id": "one-off",
+      "name": "One Off Service",
+      "options": [
+        {
+          "id": "daily",
+          "name": "Daily",
+          "price": 50000,
+          "price_label": "Per day"
+        },
+        {
+          "id": "twice-weekly",
+          "name": "Twice a Week",
+          "price": 80000,
+          "price_label": "Per week"
+        },
+        {
+          "id": "three-times-weekly",
+          "name": "Three Times a Week",
+          "price": 100000,
+          "price_label": "Per week"
+        }
+      ]
+    },
+    {
+      "id": "monthly-basis",
+      "name": "Monthly Basis",
+      "options": [
+        {
+          "id": "once-weekly",
+          "name": "Once a Week",
+          "price": 120000,
+          "price_label": "Per month"
+        },
+        {
+          "id": "twice-weekly",
+          "name": "Twice a Week",
+          "price": 150000,
+          "price_label": "Per month"
+        },
+        {
+          "id": "three-times-weekly",
+          "name": "Three Times a Week",
+          "price": 250000,
+          "price_label": "Per month"
+        },
+        {
+          "id": "full-week",
+          "name": "Full Week (5 days)",
+          "price": 300000,
+          "price_label": "Per month"
+        }
+      ]
+    },
+    {
+      "id": "additional-services",
+      "name": "Additional Services",
+      "options": [
+        {
+          "id": "grocery-shopping",
+          "name": "Grocery Shopping",
+          "price": 15000,
+          "price_label": "Per service"
+        },
+        {
+          "id": "storage-chef",
+          "name": "Storage Chef Service",
+          "price": 50000,
+          "price_label": "Per service"
+        },
+        {
+          "id": "extra-hour",
+          "name": "Extra Hour",
+          "price": 10000,
+          "price_label": "Per hour"
+        }
+      ]
+    }
+  ],
+  "terms_and_conditions": [
+    "50% initial deposit for confirmation",
+    "Balance paid upon completion",
+    "Maximum of 8 hours daily service",
+    "Ingredients are not stated unless there is an agreement"
+  ]
+}

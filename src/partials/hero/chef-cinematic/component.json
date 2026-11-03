@@ -1,0 +1,8 @@
+{
+  "id": "hero.chef-cinematic",
+  "name": "Cinematic chef hero",
+  "type": "hero",
+  "template": "hero.html",
+  "style": "hero.css",
+  "schema": "schema.json"
+}

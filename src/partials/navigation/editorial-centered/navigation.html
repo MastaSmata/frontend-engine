@@ -1,0 +1,8 @@
+<header class="navigation">
+  <a class="navigation__brand" href="/">{{brand}}</a>
+  <nav aria-label="Main navigation" data-menu>{{#links}}<a href="{{href}}">{{label}}</a>{{/links}}</nav>
+  <div class="navigation__actions">
+    {{#showCart}}<button type="button" class="navigation__cart" data-open-cart aria-label="Open shopping bag">Bag <span data-cart-count>0</span></button>{{/showCart}}
+    <button type="button" class="navigation__menu" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>Menu</button>
+  </div>
+</header>

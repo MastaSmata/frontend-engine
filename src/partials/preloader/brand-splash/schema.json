@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"required":["loadingLabel"],"properties":{"logo":{"type":"string"},"logoAlt":{"type":"string"},"loadingLabel":{"type":"string","minLength":1},"timeout":{"type":"integer","minimum":1000,"maximum":15000}}}

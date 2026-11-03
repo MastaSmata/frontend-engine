@@ -1,0 +1,1 @@
+{"id":"navigation.breadcrumb","name":"Product breadcrumb","type":"navigation","template":"breadcrumb.html","style":"breadcrumb.css","schema":"schema.json","script":"component.js","requiresData":["products"]}

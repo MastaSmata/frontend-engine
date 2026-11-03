@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"properties":{"collectionHref":{"type":"string"},"collectionLabel":{"type":"string"},"category":{"type":"string"},"categoryHref":{"type":"string"},"title":{"type":"string"},"ariaLabel":{"type":"string"}}}

@@ -1,0 +1,8 @@
+{
+  "id": "footer.editorial",
+  "name": "Editorial footer",
+  "type": "footer",
+  "template": "footer.html",
+  "style": "footer.css",
+  "schema": "schema.json"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "story.editorial",
+  "name": "Editorial story section",
+  "type": "content-section",
+  "template": "story.html",
+  "style": "story.css",
+  "schema": "schema.json"
+}

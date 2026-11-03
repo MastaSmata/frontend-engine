@@ -1,0 +1,65 @@
+{
+  "id": "private-chef",
+  "site": {
+    "brand": "Chef Stephen Sekibo",
+    "title": "Chef Stephen Sekibo — Private Dining",
+    "description": "Private chef services and Nigerian culinary experiences by Chef Stephen Sekibo.",
+    "currency": "NGN",
+    "locale": "en-NG",
+    "email": "hello@chefstephensekibo.example",
+    "phone": "+234 000 000 0000"
+  },
+  "data": {
+    "services": "data/services.json"
+  },
+  "theme": {
+    "tokens": {
+      "surface-rgb": "10 10 12",
+      "text-rgb": "248 245 238",
+      "ink-rgb": "248 245 238",
+      "primary-rgb": "212 175 55",
+      "on-primary-rgb": "10 10 12",
+      "band-rgb": "23 24 27",
+      "on-band-rgb": "248 245 238",
+      "accent-rgb": "212 175 55",
+      "font-heading": "'Cormorant Garamond', Georgia, serif",
+      "font-body": "'Jost', Arial, sans-serif"
+    }
+  },
+  "chef": {
+    "heroImage": "/images/sekibo-in-action.png",
+    "portrait": "/images/Sekibo.png",
+    "dishes": [
+      { "title": "Smoky Party Jollof", "image": "/images/platter1.jpg", "alt": "Smoky party jollof served for a gathering", "description": "Long-grain rice layered with a rich tomato and pepper base, aromatic spices, and a deep smoky finish." },
+      { "title": "Egusi & Leafy Greens", "image": "/images/platter2.jpg", "alt": "A Nigerian egusi and greens dish", "description": "A familiar comfort dish, simmered with leafy greens, pepper, and carefully balanced seasoning." },
+      { "title": "Golden Chin Chin", "image": "/images/platter3.jpg", "alt": "Golden chin chin snack", "description": "A crisp, gently sweet Nigerian favorite made for sharing at celebrations and gatherings." }
+    ],
+    "quotes": [
+      { "quote": "Chef Stephen transformed our anniversary into a warm, memorable dining experience. Every course felt considered and personal.", "author": "A private dining guest", "context": "Lagos" },
+      { "quote": "The menu celebrated Nigerian flavors with confidence, care, and beautiful presentation.", "author": "An event host", "context": "Abuja" },
+      { "quote": "Excellent attention to detail, a thoughtful menu, and a kitchen left spotless.", "author": "A returning client", "context": "Private residence" }
+    ],
+    "highlights": [
+      "Private chef and Nigerian culinary experiences",
+      "Kitchen leadership and bespoke menu development",
+      "Early culinary foundations rooted in Nigerian kitchens"
+    ]
+  },
+  "routes": {
+    "/": {
+      "title": "Chef Stephen Sekibo — Private Dining",
+      "description": "Private chef services and Nigerian culinary experiences by Chef Stephen Sekibo.",
+      "components": [
+        { "id": "navigation.chef-luxe", "props": { "brand": "Chef Stephen Sekibo", "bookingLabel": "Reserve a table", "bookingHref": "#contact", "links": [{ "label": "About", "href": "#about" }, { "label": "Dishes", "href": "#dishes" }, { "label": "Services", "href": "#services" }, { "label": "Gallery", "href": "#gallery" }, { "label": "Contact", "href": "#contact" }] } },
+        { "id": "hero.chef-cinematic", "props": { "name": "Chef Stephen Sekibo", "role": "Private Chef & Culinary Artist", "title": "A taste of Nigeria, served with intention.", "image": "$chef.heroImage", "imageAlt": "Chef Stephen Sekibo preparing a culinary experience", "ctaLabel": "Plan your experience", "ctaHref": "#services", "stats": [{ "value": "10+", "label": "Years of craft" }, { "value": "01", "label": "Personal touch" }] } },
+        { "id": "story.chef-profile", "props": { "id": "about", "eyebrow": "The chef", "title": "A journey through Nigerian kitchens", "description": "Chef Stephen Sekibo brings thoughtful hospitality and the richness of Nigerian cooking to private dining, intimate celebrations, and bespoke culinary experiences.", "image": "$chef.portrait", "imageAlt": "Chef Stephen Sekibo", "highlights": "$chef.highlights" } },
+        { "id": "gallery.chef-dishes", "props": { "id": "dishes", "eyebrow": "From the kitchen", "title": "Signature Nigerian dishes", "dishes": "$chef.dishes" } },
+        { "id": "services.chef-pricing", "props": { "id": "services", "eyebrow": "Made for your occasion", "title": "Exclusive culinary services", "termsTitle": "Booking terms" } },
+        { "id": "gallery.chef-dishes", "props": { "id": "gallery", "eyebrow": "The experience", "title": "Plating, people, and atmosphere", "dishes": [{ "title": "A table made for sharing", "image": "/images/platter4.jpg", "alt": "A carefully arranged dining platter", "description": "Thoughtful presentation for intimate dinners and special gatherings." }, { "title": "The art of preparation", "image": "/images/sekibo-in-action.png", "alt": "Chef Stephen Sekibo at work", "description": "Care, craft, and a personal touch in every detail." }, { "title": "A taste of home", "image": "/images/platter2.jpg", "alt": "A Nigerian dish prepared for guests", "description": "Familiar Nigerian flavors, prepared for your table." }] } },
+        { "id": "testimonials.chef-voices", "props": { "eyebrow": "Kind words", "title": "Words from our guests", "quotes": "$chef.quotes" } },
+        { "id": "contact.chef-inquiry", "props": { "id": "contact", "eyebrow": "Start a conversation", "title": "Reserve your dining experience", "description": "Tell us a little about your occasion and we will be in touch to plan a menu around it.", "email": "$site.email", "phone": "$site.phone", "buttonLabel": "Send inquiry" } },
+        { "id": "footer.chef-luxe", "props": { "brand": "$site.brand", "note": "Private dining. Nigerian roots. Memorable gatherings.", "email": "$site.email", "copyright": "© 2026 Chef Stephen Sekibo" } }
+      ]
+    }
+  }
+}

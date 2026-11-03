@@ -1,0 +1,451 @@
+{
+  "site": {
+    "brand": "MintHair",
+    "title": "MintHair — Everyday, elevated",
+    "description": "MintHair — premium wigs for everyday, elevated.",
+    "currency": "NGN",
+    "locale": "en-NG",
+    "storageKey": "mint-hair-cart",
+    "email": "hello@minthair.co"
+  },
+  "nav": {
+    "categories": [
+      {
+        "label": "Shop all pieces",
+        "href": "collection.html"
+      },
+      {
+        "label": "Lace front",
+        "href": "collection.html?category=Lace%20Front"
+      },
+      {
+        "label": "Glueless",
+        "href": "collection.html?category=Glueless"
+      },
+      {
+        "label": "Curly textures",
+        "href": "collection.html?category=Curly"
+      }
+    ],
+    "links": [
+      {
+        "label": "Our story",
+        "href": "about.html"
+      },
+      {
+        "label": "Contact",
+        "href": "contact.html"
+      }
+    ],
+    "searchPlaceholder": "Search pieces"
+  },
+  "home": {
+    "heroTitle": "Your new",
+    "heroEmphasis": "everyday hair.",
+    "heroSlides": [
+      {
+        "image": "/images/editorial/hero.jpg",
+        "alt": "Halo Wave wig editorial campaign",
+        "productName": "Halo Wave"
+      },
+      {
+        "image": "/images/products/soft-kink.jpg",
+        "alt": "Soft Kink wig product image",
+        "productName": "Soft Kink"
+      },
+      {
+        "image": "/images/products/halo-wave.jpg",
+        "alt": "Halo Wave wig product image",
+        "productName": "Halo Wave"
+      }
+    ],
+    "categoriesTitle": "Find your",
+    "categoriesEmphasis": "fit, your way.",
+    "featuredTitle": "Shop the",
+    "featuredEmphasis": "good hair edit.",
+    "editorialImage": "/images/editorial/texture-banner.jpg",
+    "editorialAlt": "Dark waves of hair arranged like silk ribbon",
+    "newsletterTitle": "Fresh drops, care tips",
+    "newsletterEmphasis": "& good hair energy."
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "More than a wig.",
+    "emphasis": "A little more you.",
+    "text": "MintHair is for the in-between moments — when you want a reset, a little lift, or simply an easier way to show up as yourself.",
+    "manifesto": "We make hair feel easy."
+  },
+  "contact": {
+    "eyebrow": "We’re here for you",
+    "title": "Let’s talk",
+    "emphasis": "good hair.",
+    "text": "Need help with fit, care or choosing your next piece? Drop us a line — our studio team reads every note."
+  },
+  "collection": {
+    "eyebrow": "Shop the edit",
+    "title": "Find your",
+    "emphasis": "everyday favorite.",
+    "filters": [
+      "all",
+      "Lace Front",
+      "Curly",
+      "Glueless"
+    ],
+    "lengths": [
+      "all",
+      "12\"",
+      "16–18\"",
+      "22\"+"
+    ],
+    "colors": [
+      "all",
+      "Espresso",
+      "Natural Black",
+      "Chestnut"
+    ]
+  },
+  "footer": {
+    "note": "Everyday, elevated.\nMade for your best hair days.",
+    "explore": [
+      "Shop all",
+      "Our story",
+      "Contact"
+    ],
+    "care": [
+      "Shipping & returns",
+      "Wig care guide",
+      "FAQs"
+    ],
+    "copyright": "© 2024 MintHair"
+  },
+  "labels": {
+    "shopAll": "Shop all pieces",
+    "ourStory": "Our story",
+    "contact": "Contact",
+    "addToBag": "Add to bag",
+    "checkout": "Checkout",
+    "subtotal": "Subtotal",
+    "emptyCart": "Your edit is still empty.",
+    "browseCollection": "Browse the collection",
+    "productDetails": "Product details",
+    "shipping": "Shipping & returns",
+    "care": "Care guide"
+  },
+  "id": "mint-hair-store",
+  "data": {
+    "products": "data/products.json"
+  },
+  "theme": {
+    "tokens": {
+      "surface-rgb": "245 241 233",
+      "text-rgb": "37 37 33",
+      "ink-rgb": "37 37 33",
+      "primary-rgb": "37 37 33",
+      "on-primary-rgb": "251 249 244",
+      "band-rgb": "37 37 33",
+      "on-band-rgb": "251 249 244",
+      "accent-rgb": "146 170 145",
+      "font-heading": "\"Playfair Display\", Georgia, serif",
+      "font-body": "\"Manrope\", Arial, sans-serif"
+    }
+  },
+  "routes": {
+    "/": {
+      "title": "MintHair — Everyday, elevated",
+      "description": "MintHair — premium wigs for everyday, elevated.",
+      "components": [
+        {
+          "id": "navigation.search-categories",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$nav.links",
+            "categories": "$nav.categories",
+            "searchPlaceholder": "$nav.searchPlaceholder"
+          }
+        },
+        {
+          "id": "hero.editorial-split",
+          "props": {
+            "eyebrow": "Everyday, elevated",
+            "title": "$home.heroTitle",
+            "emphasis": "$home.heroEmphasis",
+            "description": "$site.description",
+            "image": "$home.heroSlides.0.image",
+            "imageAlt": "$home.heroSlides.0.alt",
+            "buttonLabel": "$labels.shopAll",
+            "buttonHref": "collection.html"
+          }
+        },
+        {
+          "id": "product-grid.standard",
+          "props": {
+            "eyebrow": "The good hair edit",
+            "title": "$home.featuredTitle",
+            "description": "$home.featuredEmphasis",
+            "cardComponent": "product-card.minimal",
+            "limit": 6
+          }
+        },
+        {
+          "id": "story.editorial",
+          "props": {
+            "eyebrow": "$about.eyebrow",
+            "title": "$about.manifesto",
+            "text": "$about.text",
+            "image": "$home.editorialImage",
+            "imageAlt": "$home.editorialAlt",
+            "linkLabel": "$labels.ourStory",
+            "linkHref": "about.html"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$footer.note",
+            "links": [
+              {
+                "label": "Shop all",
+                "href": "collection.html"
+              },
+              {
+                "label": "Our story",
+                "href": "about.html"
+              },
+              {
+                "label": "Contact",
+                "href": "contact.html"
+              }
+            ],
+            "email": "$site.email",
+            "copyright": "$footer.copyright"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "Shopping bag",
+            "checkoutLabel": "$labels.checkout"
+          }
+        }
+      ]
+    },
+    "/collection.html": {
+      "title": "Shop all | MintHair",
+      "description": "MintHair — premium wigs for everyday, elevated.",
+      "components": [
+        {
+          "id": "navigation.search-categories",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$nav.links",
+            "categories": "$nav.categories",
+            "searchPlaceholder": "$nav.searchPlaceholder"
+          }
+        },
+        {
+          "id": "product-grid.standard",
+          "props": {
+            "eyebrow": "$collection.eyebrow",
+            "title": "$collection.title",
+            "description": "$collection.emphasis",
+            "cardComponent": "product-card.minimal",
+            "search": true
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$footer.note",
+            "links": [
+              {
+                "label": "Shop all",
+                "href": "collection.html"
+              },
+              {
+                "label": "Our story",
+                "href": "about.html"
+              },
+              {
+                "label": "Contact",
+                "href": "contact.html"
+              }
+            ],
+            "email": "$site.email",
+            "copyright": "$footer.copyright"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "Shopping bag",
+            "checkoutLabel": "$labels.checkout"
+          }
+        }
+      ]
+    },
+    "/product.html": {
+      "title": "Product | MintHair",
+      "description": "MintHair — premium wigs for everyday, elevated.",
+      "components": [
+        {
+          "id": "navigation.search-categories",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$nav.links",
+            "categories": "$nav.categories",
+            "searchPlaceholder": "$nav.searchPlaceholder"
+          }
+        },
+        {
+          "id": "product-detail.standard",
+          "props": {
+            "eyebrow": "$site.brand",
+            "addLabel": "$labels.addToBag"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$footer.note",
+            "links": [
+              {
+                "label": "Shop all",
+                "href": "collection.html"
+              },
+              {
+                "label": "Our story",
+                "href": "about.html"
+              },
+              {
+                "label": "Contact",
+                "href": "contact.html"
+              }
+            ],
+            "email": "$site.email",
+            "copyright": "$footer.copyright"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "Shopping bag",
+            "checkoutLabel": "$labels.checkout"
+          }
+        }
+      ]
+    },
+    "/about.html": {
+      "title": "About | MintHair",
+      "description": "MintHair — premium wigs for everyday, elevated.",
+      "components": [
+        {
+          "id": "navigation.search-categories",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$nav.links",
+            "categories": "$nav.categories",
+            "searchPlaceholder": "$nav.searchPlaceholder"
+          }
+        },
+        {
+          "id": "story.editorial",
+          "props": {
+            "eyebrow": "$about.eyebrow",
+            "title": "$about.title",
+            "text": "$about.text",
+            "image": "$home.editorialImage",
+            "imageAlt": "$home.editorialAlt"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$footer.note",
+            "links": [
+              {
+                "label": "Shop all",
+                "href": "collection.html"
+              },
+              {
+                "label": "Our story",
+                "href": "about.html"
+              },
+              {
+                "label": "Contact",
+                "href": "contact.html"
+              }
+            ],
+            "email": "$site.email",
+            "copyright": "$footer.copyright"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "Shopping bag",
+            "checkoutLabel": "$labels.checkout"
+          }
+        }
+      ]
+    },
+    "/contact.html": {
+      "title": "Contact | MintHair",
+      "description": "MintHair — premium wigs for everyday, elevated.",
+      "components": [
+        {
+          "id": "navigation.search-categories",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$nav.links",
+            "categories": "$nav.categories",
+            "searchPlaceholder": "$nav.searchPlaceholder"
+          }
+        },
+        {
+          "id": "contact.basic-form",
+          "props": {
+            "eyebrow": "$contact.eyebrow",
+            "title": "$contact.title",
+            "description": "$contact.text",
+            "email": "$site.email",
+            "buttonLabel": "Send message"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$footer.note",
+            "links": [
+              {
+                "label": "Shop all",
+                "href": "collection.html"
+              },
+              {
+                "label": "Our story",
+                "href": "about.html"
+              },
+              {
+                "label": "Contact",
+                "href": "contact.html"
+              }
+            ],
+            "email": "$site.email",
+            "copyright": "$footer.copyright"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "Shopping bag",
+            "checkoutLabel": "$labels.checkout"
+          }
+        }
+      ]
+    }
+  }
+}

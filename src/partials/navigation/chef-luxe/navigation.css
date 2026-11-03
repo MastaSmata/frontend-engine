@@ -1,0 +1,10 @@
+[data-component-id="navigation.chef-luxe"] .chef-nav { position:absolute; z-index:5; inset:0 0 auto; color:#f8f5ee; border-bottom:1px solid rgb(255 255 255 / .14); }
+[data-component-id="navigation.chef-luxe"] .chef-nav__inner { width:min(100% - 3rem, 1440px); min-height:5rem; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:2rem; }
+[data-component-id="navigation.chef-luxe"] .chef-nav__brand { font:500 1.1rem var(--font-heading); letter-spacing:.12em; text-transform:uppercase; white-space:nowrap; }
+[data-component-id="navigation.chef-luxe"] .chef-nav__links { display:flex; align-items:center; gap:clamp(1rem,2.4vw,2.4rem); font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; }
+[data-component-id="navigation.chef-luxe"] .chef-nav__links a { color:rgb(248 245 238 / .84); transition:color .2s ease; }
+[data-component-id="navigation.chef-luxe"] .chef-nav__links a:hover { color:#d4af37; }
+[data-component-id="navigation.chef-luxe"] .chef-nav__links .chef-nav__booking { padding:.75rem 1rem; border:1px solid rgb(212 175 55 / .72); color:#f8f5ee; }
+[data-component-id="navigation.chef-luxe"] .chef-nav__toggle { display:none; width:2.6rem; height:2.6rem; padding:.6rem; background:transparent; border:1px solid rgb(212 175 55 / .5); }
+[data-component-id="navigation.chef-luxe"] .chef-nav__toggle span { display:block; height:1px; margin:.35rem 0; background:#d4af37; }
+@media(max-width:850px) { [data-component-id="navigation.chef-luxe"] .chef-nav__inner { min-height:4.5rem; } [data-component-id="navigation.chef-luxe"] .chef-nav__toggle { display:block; } [data-component-id="navigation.chef-luxe"] .chef-nav__links { position:absolute; top:100%; right:1.5rem; left:1.5rem; display:none; align-items:stretch; flex-direction:column; gap:0; padding:.6rem 1rem 1rem; background:#17181b; border:1px solid rgb(212 175 55 / .25); } [data-component-id="navigation.chef-luxe"] .chef-nav__links.is-open { display:flex; } [data-component-id="navigation.chef-luxe"] .chef-nav__links a { padding:.9rem .2rem; } [data-component-id="navigation.chef-luxe"] .chef-nav__links .chef-nav__booking { text-align:center; margin-top:.4rem; } }

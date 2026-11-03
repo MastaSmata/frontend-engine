@@ -1,0 +1,6 @@
+<header class="navigation">
+  <a class="navigation__brand" href="/">{{brand}}</a>
+  <form role="search" class="navigation__search" data-product-search-form><input type="search" data-product-search placeholder="{{searchPlaceholder}}" aria-label="{{searchPlaceholder}}"></form>
+  <nav aria-label="Product categories">{{#categories}}<a href="{{href}}">{{label}}</a>{{/categories}}</nav>
+  <div class="navigation__actions">{{#links}}<a href="{{href}}">{{label}}</a>{{/links}}<button type="button" class="navigation__cart" data-open-cart aria-label="Open shopping bag">Bag <span data-cart-count>0</span></button></div>
+</header>

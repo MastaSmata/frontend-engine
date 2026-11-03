@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cardComponent"],
+  "properties": {
+    "eyebrow": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "cardComponent": { "type": "string", "minLength": 1 },
+    "limit": { "type": "integer", "minimum": 1 },
+    "featuredOnly": { "type": "boolean" },
+    "search": { "type": "boolean" }
+  }
+}

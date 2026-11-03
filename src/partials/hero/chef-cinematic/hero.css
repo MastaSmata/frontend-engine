@@ -1,0 +1,16 @@
+[data-component-id="hero.chef-cinematic"] .chef-hero { position:relative; min-height:min(900px,100svh); display:flex; align-items:center; overflow:hidden; padding:8rem clamp(1.5rem,9vw,9rem); color:#f8f5ee; background:#0a0a0c; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__image { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 40%; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__shade { position:absolute; inset:0; background:linear-gradient(90deg,rgb(10 10 12 / .9),rgb(10 10 12 / .45) 56%,rgb(10 10 12 / .18)),linear-gradient(0deg,rgb(10 10 12 / .75),transparent 55%); }
+[data-component-id="hero.chef-cinematic"] .chef-hero__content { position:relative; z-index:1; width:min(44rem,75%); }
+[data-component-id="hero.chef-cinematic"] .chef-hero__role { color:#d4af37; font-size:.72rem; letter-spacing:.24em; text-transform:uppercase; }
+[data-component-id="hero.chef-cinematic"] h1 { max-width:12ch; margin:.8rem 0 .25rem; font:400 clamp(3.5rem,9vw,8rem)/.86 var(--font-heading); letter-spacing:-.04em; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__title { max-width:35rem; margin:1.4rem 0; color:rgb(248 245 238 / .88); font:400 clamp(1.1rem,2vw,1.6rem)/1.35 var(--font-heading); }
+[data-component-id="hero.chef-cinematic"] .chef-hero__cta { display:inline-flex; align-items:center; gap:1.2rem; margin-top:1rem; padding:.9rem 1.2rem; border:1px solid rgb(212 175 55 / .8); color:#f8f5ee; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__cta span { color:#d4af37; font-size:1rem; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__stats { position:absolute; z-index:1; right:clamp(1.5rem,7vw,7rem); bottom:6rem; display:flex; gap:2rem; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__stats div { display:grid; gap:.35rem; max-width:8rem; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__stats strong { color:#d4af37; font:400 2.5rem/.9 var(--font-heading); }
+[data-component-id="hero.chef-cinematic"] .chef-hero__stats span { color:rgb(248 245 238 / .78); font-size:.58rem; letter-spacing:.12em; text-transform:uppercase; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__scroll { position:absolute; left:50%; bottom:1.6rem; z-index:1; display:grid; justify-items:center; gap:.4rem; transform:translateX(-50%); color:rgb(248 245 238 / .7); font-size:.58rem; letter-spacing:.2em; text-transform:uppercase; }
+[data-component-id="hero.chef-cinematic"] .chef-hero__scroll span { color:#d4af37; font-size:1.1rem; }
+@media(max-width:640px) { [data-component-id="hero.chef-cinematic"] .chef-hero { min-height:92svh; padding:7rem 1.4rem 10rem; } [data-component-id="hero.chef-cinematic"] .chef-hero__content { width:100%; } [data-component-id="hero.chef-cinematic"] .chef-hero__shade { background:linear-gradient(90deg,rgb(10 10 12 / .83),rgb(10 10 12 / .35)),linear-gradient(0deg,rgb(10 10 12 / .86),transparent 65%); } [data-component-id="hero.chef-cinematic"] .chef-hero__stats { right:1.4rem; bottom:4.7rem; gap:1.1rem; } [data-component-id="hero.chef-cinematic"] .chef-hero__stats strong { font-size:2rem; } }

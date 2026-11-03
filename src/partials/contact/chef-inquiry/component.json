@@ -1,0 +1,8 @@
+{
+  "id": "contact.chef-inquiry",
+  "name": "Chef booking inquiry",
+  "type": "contact",
+  "template": "contact.html",
+  "style": "contact.css",
+  "schema": "schema.json"
+}

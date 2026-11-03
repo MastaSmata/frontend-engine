@@ -1,0 +1,9 @@
+{
+  "id": "product-card.editorial",
+  "name": "Editorial product card",
+  "type": "product-card",
+  "template": "product-card.html",
+  "style": "product-card.css",
+  "schema": "schema.json",
+  "script": "component.js"
+}

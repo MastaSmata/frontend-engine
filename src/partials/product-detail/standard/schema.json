@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "eyebrow": { "type": "string" },
+    "addLabel": { "type": "string" }
+  }
+}

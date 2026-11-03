@@ -1,0 +1,8 @@
+{
+  "id": "story.chef-profile",
+  "name": "Chef profile and experience",
+  "type": "story",
+  "template": "story.html",
+  "style": "story.css",
+  "schema": "schema.json"
+}

@@ -1,0 +1,615 @@
+{
+  "site": {
+    "brand": "THEOS",
+    "legalName": "THEOS STUDIOS",
+    "title": "THEOS — Architectural Luxury Fashion",
+    "tagline": "A modern menswear house defined by precision, presence, and personal style.",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "priceDecimals": 2,
+    "locale": "en-US",
+    "whatsappNumber": "2340000000000",
+    "storageKey": "theos",
+    "nav": [
+      {
+        "label": "About us",
+        "href": "about.html"
+      },
+      {
+        "label": "Collection",
+        "href": "collection.html"
+      },
+      {
+        "label": "Contact us",
+        "href": "contact.html"
+      }
+    ],
+    "contact": {
+      "email": "atelier@theos.example",
+      "press": "press@theos.example"
+    },
+    "social": [
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com",
+        "icon": "instagram"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com",
+        "icon": "facebook"
+      },
+      {
+        "label": "WhatsApp",
+        "href": "https://wa.me/0000000000",
+        "icon": "whatsapp"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "#"
+      },
+      {
+        "label": "Cookie Preferences",
+        "href": "#"
+      }
+    ]
+  },
+  "images": {
+    "logo": "/images/logo/logo.svg",
+    "favicon": "/favicon.svg",
+    "preloader": "/images/groundaq.svg",
+    "heroImage": "/images/general/hero.png",
+    "aboutImage": "/images/general/about-atelier.png",
+    "poweredBy": "/images/groundaq.svg"
+  },
+  "pages": {
+    "index": {
+      "description": "THEOS — A modern menswear house defined by precision, presence, and personal style."
+    },
+    "collection": {
+      "description": "THEOS — a modernist study in silhouette, texture, and architectural fashion design."
+    },
+    "product": {
+      "description": "THEOS — a modernist study in silhouette, texture, and architectural fashion design."
+    },
+    "about": {
+      "description": "THEOS creates contemporary menswear for those who understand the value of precision. Every silhouette is considered, every detail deliberate, and every garment designed to command attention without demanding it."
+    },
+    "contact": {
+      "description": "THEOS — A modern menswear house defined by precision, presence, and personal style."
+    }
+  },
+  "hero": {
+    "cta": "Explore Collection",
+    "scroll": "scroll"
+  },
+  "editorial": {
+    "count": 12,
+    "title": "DRESS LIKE A MAN OF PURPOSE.",
+    "text": "Tailored for men who lead with purpose, move with intention, and understand the power of presence."
+  },
+  "catalog": {
+    "reviews": "15K++ Positive Reviews",
+    "title": "your style.<br>your measure.<br>your signature."
+  },
+  "about": {
+    "eyebrow": "The Manifesto",
+    "title": "CRAFTED FOR THE MAN WHO KNOWS WHO HE IS—AND WHERE HE IS GOING.",
+    "text": "THEOS creates contemporary menswear for those who understand the value of precision. Every silhouette is considered, every detail deliberate, and every garment designed to command attention without demanding it.",
+    "imageAlt": "Manifesto Atelier",
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Precision Tailoring & Fine Fabrics"
+      },
+      {
+        "value": "01",
+        "label": "Private Styling Experience"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "icon": "truck",
+      "title": "Complimentary Global Delivery",
+      "text": "Insured express shipping across all major metropolitan capitals."
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "White Glove Returns",
+      "text": "Complimentary concierge pickup for all returns within 30 days."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Lifetime Archival Warranty",
+      "text": "Complimentary garment restoration and structural maintenance."
+    }
+  ],
+  "contact": {
+    "eyebrow": "Contact us",
+    "title": "Speak with the atelier.",
+    "pressLabel": "Press:"
+  },
+  "footer": {
+    "navigateTitle": "Navigate",
+    "links": [
+      {
+        "label": "About",
+        "href": "/#about"
+      },
+      {
+        "label": "Collection",
+        "href": "/#collection"
+      },
+      {
+        "label": "Private Styling",
+        "href": "/private-styling.html"
+      },
+      {
+        "label": "Journal",
+        "href": "/journal.html"
+      }
+    ],
+    "followTitle": "Follow the House",
+    "newsletterTitle": "The Inner Circle",
+    "newsletterText": "Private access to new collections, styling sessions, limited pieces, and THEOS events.",
+    "emailLabel": "Your email address",
+    "emailAria": "Email address",
+    "emailPlaceholder": "YOUR EMAIL ADDRESS",
+    "join": "Join the House",
+    "rights": "ALL RIGHTS RESERVED."
+  },
+  "disclaimer": {
+    "text": "The pictures used in this website were extracted from Pinterest and other public websites for sample purposes only. We do not claim ownership of any picture used in this sample website.",
+    "poweredBy": "Powered by",
+    "poweredByAlt": "Groundaq"
+  },
+  "cart": {
+    "title": "Shopping Bag",
+    "close": "Close",
+    "subtotal": "Subtotal",
+    "checkoutWhatsapp": "Checkout - Whatsapp",
+    "checkoutCard": "Checkout - Debit Card",
+    "empty": "Your bag is currently empty."
+  },
+  "collectionNav": {
+    "ariaLabel": "Collection navigation",
+    "categories": "Categories",
+    "searchLabel": "Search collection",
+    "searchPlaceholder": "Search collection..."
+  },
+  "ui": {
+    "loading": "Loading",
+    "add": "Add",
+    "addToWishlist": "Add to wishlist",
+    "view": "View",
+    "backToCollection": "Back to Collection",
+    "breadcrumb": "Breadcrumb",
+    "viewProduct": "View {title}",
+    "viewImage": "View image {number}",
+    "imageAlt": "{title} view {number}",
+    "selected": "Selected:",
+    "quantity": "Quantity",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "productInfo": "Product information",
+    "careInstructions": "Care Instructions",
+    "remove": "Remove",
+    "addedToCart": "Added {title} to your collection.",
+    "addedToWishlist": "Added {title} to wishlist.",
+    "subscribed": "Subscribed successfully.",
+    "checkoutStarted": "Proceeding to secure checkout...",
+    "whatsappGreeting": "Hello {brand}, I would like to order:",
+    "whatsappTotal": "Total: {total}",
+    "comingSoon": "New pieces arriving soon.",
+    "unavailable": "The collection is temporarily unavailable. Please try again shortly.",
+    "noMatch": "No pieces match your selection.",
+    "notFound": "This piece could not be found.",
+    "viewCollection": "View the collection"
+  },
+  "product": {
+    "colorName": "Color",
+    "sizeName": "Size",
+    "overviewTab": "Overview & Specifications",
+    "sizeTab": "Size Reference",
+    "specLabels": [
+      "Materials",
+      "Fabric Features",
+      "Style",
+      "Design Breakdown",
+      "Occasions"
+    ],
+    "specFallback": "Specification",
+    "sizeChart": {
+      "title": "Men's Size Reference",
+      "subtitle": "Universal adult men's body measurements",
+      "unit": "cm / in",
+      "caption": "Universal adult men's clothing size reference chart",
+      "columns": [
+        "Size",
+        "Chest",
+        "Waist",
+        "Hip",
+        "Neck",
+        "Sleeve",
+        "Inseam"
+      ],
+      "rows": [
+        [
+          "XS",
+          "86–91 / 34–36",
+          "71–76 / 28–30",
+          "86–91 / 34–36",
+          "36–37 / 14–14.5",
+          "82–84 / 32–33",
+          "79–81 / 31–32"
+        ],
+        [
+          "S",
+          "92–97 / 36–38",
+          "77–82 / 30–32",
+          "92–97 / 36–38",
+          "38–39 / 15–15.5",
+          "84–86 / 33–34",
+          "81–83 / 32–33"
+        ],
+        [
+          "M",
+          "98–103 / 38–41",
+          "83–88 / 32–35",
+          "98–103 / 38–41",
+          "40–41 / 15.5–16",
+          "86–88 / 34–35",
+          "83–85 / 33–33.5"
+        ],
+        [
+          "L",
+          "104–109 / 41–43",
+          "89–94 / 35–37",
+          "104–109 / 41–43",
+          "42–43 / 16.5–17",
+          "88–90 / 35–35.5",
+          "85–87 / 33.5–34.5"
+        ],
+        [
+          "XL",
+          "110–117 / 43–46",
+          "95–102 / 37–40",
+          "110–117 / 43–46",
+          "44–46 / 17.5–18",
+          "90–92 / 35.5–36",
+          "87–89 / 34.5–35"
+        ],
+        [
+          "XXL",
+          "118–125 / 46–49",
+          "103–110 / 40–43",
+          "118–125 / 46–49",
+          "48–50 / 19–19.5",
+          "92–94 / 36–37",
+          "89–91 / 35–36"
+        ],
+        [
+          "3XL",
+          "126–133 / 50–52",
+          "111–118 / 44–46",
+          "126–133 / 50–52",
+          "52–54 / 20.5–21",
+          "94–96 / 37–38",
+          "91–93 / 36–36.5"
+        ]
+      ],
+      "note": "Body measurements are shown in centimetres, with inches after the slash. Measure the body rather than the garment. Fit can vary by cut and silhouette."
+    }
+  },
+  "id": "menswear",
+  "data": {
+    "products": "data/products.json",
+    "editorial": "data/editorial.json"
+  },
+  "theme": {
+    "tokens": {
+      "surface-rgb": "12 12 12",
+      "text-rgb": "245 245 247",
+      "ink-rgb": "245 245 247",
+      "primary-rgb": "226 223 216",
+      "on-primary-rgb": "12 12 12",
+      "band-rgb": "22 22 22",
+      "on-band-rgb": "245 245 247",
+      "accent-rgb": "176 141 87",
+      "font-heading": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "font-body": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+      "overlay-rgb": "0 0 0",
+      "surface": "rgb(var(--surface-rgb))",
+      "text": "rgb(var(--text-rgb))",
+      "ink": "rgb(var(--ink-rgb))",
+      "primary": "rgb(var(--primary-rgb))",
+      "on-primary": "rgb(var(--on-primary-rgb))",
+      "band": "rgb(var(--band-rgb))",
+      "on-band": "rgb(var(--on-band-rgb))",
+      "accent": "rgb(var(--accent-rgb))",
+      "overlay": "rgb(var(--overlay-rgb))",
+      "bg": "var(--surface)",
+      "fg": "var(--text)",
+      "line": "rgb(var(--ink-rgb) / 0.14)",
+      "blush": "rgb(var(--ink-rgb) / 0.05)",
+      "muted": "rgb(var(--text-rgb) / 0.62)",
+      "on-band-soft": "rgb(var(--on-band-rgb) / 0.8)",
+      "line-on-band": "rgb(var(--on-band-rgb) / 0.16)",
+      "primary-hover": "rgb(var(--accent-rgb))",
+      "r-xs": "0px",
+      "r-sm": "0px",
+      "r-md": "0px",
+      "r-lg": "0px",
+      "r-arch": "0px",
+      "shadow": "0 22px 44px -24px rgb(var(--overlay-rgb) / 0.8)"
+    }
+  },
+  "routes": {
+    "/": {
+      "title": "THEOS — Architectural Luxury Fashion",
+      "description": "THEOS — A modern menswear house defined by precision, presence, and personal style.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "hero.editorial-split",
+          "props": {
+            "eyebrow": "$site.tagline",
+            "title": "$site.brand",
+            "description": "$site.tagline",
+            "image": "$images.heroImage",
+            "imageAlt": "$site.brand",
+            "buttonLabel": "$hero.cta",
+            "buttonHref": "collection.html"
+          }
+        },
+        {
+          "id": "product-grid.standard",
+          "props": {
+            "eyebrow": "The collection",
+            "title": "Featured pieces",
+            "description": "$catalog.reviews",
+            "cardComponent": "product-card.editorial",
+            "featuredOnly": true,
+            "limit": 8
+          }
+        },
+        {
+          "id": "editorial.marquee",
+          "props": {
+            "title": "$editorial.title",
+            "description": "$editorial.text",
+            "layout": "marquee",
+            "limit": "$editorial.count"
+          }
+        },
+        {
+          "id": "story.editorial",
+          "props": {
+            "eyebrow": "$about.eyebrow",
+            "title": "$about.title",
+            "text": "$about.text",
+            "image": "$images.aboutImage",
+            "imageAlt": "$about.imageAlt",
+            "linkLabel": "Discover our story",
+            "linkHref": "about.html"
+          }
+        },
+        {
+          "id": "editorial.benefits",
+          "props": {
+            "benefits": "$benefits"
+          }
+        },
+        {
+          "id": "social-links.inline",
+          "props": {
+            "label": "Follow the house",
+            "links": "$site.social"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "legal.disclaimer",
+          "props": {
+            "text": "$disclaimer.text",
+            "poweredBy": "Powered by GroundAQ"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        },
+        { "id": "feedback.toast" }
+      ]
+    },
+    "/collection.html": {
+      "title": "Collection | THEOS",
+      "description": "THEOS — a modernist study in silhouette, texture, and architectural fashion design.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "product-grid.standard",
+          "props": {
+            "eyebrow": "Shop",
+            "title": "The collection",
+            "description": "$catalog.reviews",
+            "cardComponent": "product-card.editorial",
+            "search": true
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/product.html": {
+      "title": "Product | THEOS",
+      "description": "THEOS — a modernist study in silhouette, texture, and architectural fashion design.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "product-detail.standard",
+          "props": {
+            "eyebrow": "$site.brand",
+            "addLabel": "$ui.addToCart"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/about.html": {
+      "title": "About | THEOS",
+      "description": "THEOS creates contemporary menswear for those who understand the value of precision. Every silhouette is considered, every detail deliberate, and every garment designed to command attention without demanding it.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "story.editorial",
+          "props": {
+            "eyebrow": "$about.eyebrow",
+            "title": "$about.title",
+            "text": "$about.text",
+            "image": "$images.aboutImage",
+            "imageAlt": "$about.imageAlt"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/contact.html": {
+      "title": "Contact | THEOS",
+      "description": "THEOS — A modern menswear house defined by precision, presence, and personal style.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "contact.basic-form",
+          "props": {
+            "eyebrow": "Contact",
+            "title": "Get in touch",
+            "description": "$site.tagline",
+            "email": "$site.contact.email",
+            "buttonLabel": "Send message"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    }
+  }
+}

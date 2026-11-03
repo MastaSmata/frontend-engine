@@ -1,0 +1,8 @@
+{
+  "id": "testimonials.chef-voices",
+  "name": "Chef guest testimonials",
+  "type": "testimonials",
+  "template": "testimonials.html",
+  "style": "testimonials.css",
+  "schema": "schema.json"
+}

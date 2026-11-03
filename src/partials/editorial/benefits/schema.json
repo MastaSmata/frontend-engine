@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"required":["benefits"],"properties":{"title":{"type":"string"},"benefits":{"type":"array","minItems":1,"items":{"type":"object","required":["title","text"],"properties":{"icon":{"type":"string"},"title":{"type":"string"},"text":{"type":"string"}},"additionalProperties":false}}}}

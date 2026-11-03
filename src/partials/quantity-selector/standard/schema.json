@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"properties":{"label":{"type":"string"},"decreaseLabel":{"type":"string"},"increaseLabel":{"type":"string"},"initialValue":{"type":"integer","minimum":1},"max":{"type":"integer","minimum":1}}}

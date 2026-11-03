@@ -1,0 +1,13 @@
+[data-component-id="services.chef-pricing"] .chef-services { padding:clamp(4rem,8vw,8rem) clamp(1.25rem,7vw,7rem); background:#17181b; color:#f8f5ee; }
+[data-component-id="services.chef-pricing"] .chef-services__heading { max-width:50rem; margin:0 auto 3rem; text-align:center; }
+[data-component-id="services.chef-pricing"] .chef-services__heading p { color:#d4af37; font-size:.68rem; letter-spacing:.22em; text-transform:uppercase; }
+[data-component-id="services.chef-pricing"] .chef-services h2 { margin:.7rem 0 0; font:400 clamp(2.6rem,5.5vw,5.2rem)/.95 var(--font-heading); }
+[data-component-id="services.chef-pricing"] .chef-services__groups { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr)); gap:1.2rem; width:min(100%,1320px); margin:auto; }
+[data-component-id="services.chef-pricing"] .chef-services__group { padding:1.5rem; border:1px solid rgb(212 175 55 / .26); background:linear-gradient(145deg,rgb(255 255 255 / .05),rgb(212 175 55 / .025)); }
+[data-component-id="services.chef-pricing"] .chef-services__group h3 { margin:0 0 1.2rem; color:#d4af37; font:400 1.8rem var(--font-heading); }
+[data-component-id="services.chef-pricing"] .chef-services__option { display:flex; justify-content:space-between; gap:1rem; padding:.9rem 0; border-top:1px solid rgb(255 255 255 / .12); }
+[data-component-id="services.chef-pricing"] .chef-services__option strong { color:#f8f5ee; font-weight:500; }
+[data-component-id="services.chef-pricing"] .chef-services__option span { color:rgb(248 245 238 / .62); font-size:.75rem; text-align:right; }
+[data-component-id="services.chef-pricing"] .chef-services__terms { width:min(100%,1320px); margin:3rem auto 0; padding-top:2rem; border-top:1px solid rgb(212 175 55 / .24); }
+[data-component-id="services.chef-pricing"] .chef-services__terms h3 { color:#d4af37; font:400 1.8rem var(--font-heading); }
+[data-component-id="services.chef-pricing"] .chef-services__terms ul { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr)); gap:.75rem 2rem; margin:0; padding-left:1rem; color:rgb(248 245 238 / .72); font-size:.8rem; }

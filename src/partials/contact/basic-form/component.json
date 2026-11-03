@@ -1,0 +1,8 @@
+{
+  "id": "contact.basic-form",
+  "name": "Basic contact form",
+  "type": "contact-section",
+  "template": "contact.html",
+  "style": "contact.css",
+  "schema": "schema.json"
+}

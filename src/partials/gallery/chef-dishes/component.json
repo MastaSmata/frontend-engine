@@ -1,0 +1,8 @@
+{
+  "id": "gallery.chef-dishes",
+  "name": "Chef dishes and experience gallery",
+  "type": "gallery",
+  "template": "gallery.html",
+  "style": "gallery.css",
+  "schema": "schema.json"
+}

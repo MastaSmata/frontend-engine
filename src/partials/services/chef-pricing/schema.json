@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "termsTitle"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "eyebrow": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "termsTitle": { "type": "string", "minLength": 1 }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GroundAQ site configuration",
+  "type": "object",
+  "required": ["id", "site", "theme", "routes"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "site": { "type": "object", "required": ["brand", "title"], "properties": { "brand": { "type": "string", "minLength": 1 }, "title": { "type": "string", "minLength": 1 } }, "additionalProperties": true },
+    "theme": { "type": "object", "required": ["tokens"], "properties": { "tokens": { "type": "object" } } },
+    "data": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
+    "routes": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["components"],
+        "properties": {
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "components": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id"],
+              "properties": {
+                "id": { "type": "string", "minLength": 1 },
+                "props": { "type": "object", "additionalProperties": true }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

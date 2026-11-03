@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["brand", "links"],
+  "properties": {
+    "brand": { "type": "string", "minLength": 1 },
+    "logo": { "type": "string" },
+    "links": { "type": "array", "items": { "type": "object", "required": ["label", "href"], "properties": { "label": { "type": "string" }, "href": { "type": "string" } } } },
+    "showCart": { "type": "boolean" }
+  }
+}

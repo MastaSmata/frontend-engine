@@ -1,0 +1,8 @@
+{
+  "id": "button.primary",
+  "name": "Primary action button",
+  "type": "object",
+  "template": "button.html",
+  "style": "button.css",
+  "schema": "schema.json"
+}

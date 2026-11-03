@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["placeholder"],
+  "properties": {
+    "placeholder": { "type": "string" },
+    "label": { "type": "string" }
+  }
+}

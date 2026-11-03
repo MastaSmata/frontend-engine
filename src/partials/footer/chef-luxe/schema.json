@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["brand", "note", "email", "copyright"],
+  "properties": {
+    "brand": { "type": "string", "minLength": 1 },
+    "note": { "type": "string" },
+    "email": { "type": "string", "minLength": 3 },
+    "copyright": { "type": "string" }
+  }
+}

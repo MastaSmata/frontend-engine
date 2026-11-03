@@ -1,0 +1,8 @@
+{
+  "id": "cart.slide-over",
+  "name": "Slide-over shopping cart",
+  "type": "cart",
+  "template": "cart.html",
+  "style": "cart.css",
+  "schema": "schema.json"
+}

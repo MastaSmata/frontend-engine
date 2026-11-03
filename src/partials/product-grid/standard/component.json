@@ -1,0 +1,11 @@
+{
+  "id": "product-grid.standard",
+  "name": "Standard product grid",
+  "type": "product-grid",
+  "template": "product-grid.html",
+  "style": "product-grid.css",
+  "schema": "schema.json",
+  "script": "component.js",
+  "dynamicDependency": "cardComponent",
+  "requiresData": ["products"]
+}

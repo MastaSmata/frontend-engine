@@ -1,0 +1,8 @@
+{
+  "id": "footer.chef-luxe",
+  "name": "Chef luxe footer",
+  "type": "footer",
+  "template": "footer.html",
+  "style": "footer.css",
+  "schema": "schema.json"
+}

@@ -1,0 +1,20 @@
+# Elice SKincare
+
+A vibrant, mobile-first skincare storefront built with Vite, Vanilla JavaScript, HTML, and CSS.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the Vite preview URL. The project uses a multi-page setup with entries at `/`, `/src/pages/collection.html`, `/src/pages/product.html`, `/src/pages/about.html`, and `/src/pages/contact.html`.
+
+## Structure
+
+- `public/data/products.json` — catalog source data.
+- `src/app/` — page bootstrapping, product loading, filtering, cart state, and notifications.
+- `src/components/` — reusable product card/grid and shared rendering helpers.
+- `src/partials/` — reusable header, navigation, footer, and cart partial placeholders.
+- `src/styles/` — modular CSS files imported by the app entrypoint.

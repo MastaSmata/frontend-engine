@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "description", "image", "imageAlt"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "eyebrow": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "image": { "type": "string", "minLength": 1 },
+    "imageAlt": { "type": "string" },
+    "highlights": { "type": "array", "items": { "type": "string" } }
+  }
+}

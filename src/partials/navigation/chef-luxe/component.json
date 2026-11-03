@@ -1,0 +1,9 @@
+{
+  "id": "navigation.chef-luxe",
+  "name": "Chef luxe navigation",
+  "type": "navigation",
+  "template": "navigation.html",
+  "style": "navigation.css",
+  "schema": "schema.json",
+  "script": "component.js"
+}

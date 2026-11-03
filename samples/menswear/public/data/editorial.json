@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "MONOCHROME TAILORING",
+    "subtitle": "Featured Look",
+    "index": "04",
+    "image": "/images/editorial/pic1.jpeg"
+  },
+
+
+  {
+    "id": 2,
+    "title": "THE HEAVY DRAPE",
+    "subtitle": "Structural Wool",
+    "index": "05",
+    "image": "/images/editorial/pic3.png"
+  },
+
+
+  {
+    "id": 3,
+    "title": "CASHMERE MONOLITH",
+    "subtitle": "Outerwear Series",
+    "index": "06",
+    "image": "/images/editorial/pic2.jpeg"
+  },
+
+
+  {
+    "id": 4,
+    "title": "SILK ARCHIVE DECONSTRUCTION",
+    "subtitle": "Runway Exclusive",
+    "index": "07",
+    "image": "/images/editorial/pic4.png"
+  },
+
+
+  {
+    "id": 5,
+    "title": "MOLTEN METAL ACCESSORIES",
+    "subtitle": "Handcrafted Silver",
+    "index": "08",
+    "image": "/images/editorial/pic5.png"
+  },
+
+
+  {
+    "id": 6,
+    "title": "PLEATED MAXI SILHOUETTE",
+    "subtitle": "Organic Fiber",
+    "index": "09",
+    "image": "/images/editorial/pic13.png"
+  }
+]

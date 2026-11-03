@@ -1,0 +1,8 @@
+{
+  "id": "search-field.inline",
+  "name": "Inline product search",
+  "type": "object",
+  "template": "search-field.html",
+  "style": "search-field.css",
+  "schema": "schema.json"
+}

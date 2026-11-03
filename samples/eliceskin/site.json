@@ -1,0 +1,143 @@
+{
+  "id": "eliceskin",
+  "site": {
+    "brand": "Elice Skincare",
+    "title": "Elice Skincare — joy for your skin",
+    "description": "Skincare with a little more joy.",
+    "currency": "NGN",
+    "locale": "en-NG",
+    "storageKey": "eliceskin-cart",
+    "email": "hello@eliceskincare.com",
+    "productPath": "product.html"
+  },
+  "data": {
+    "products": "data/products.json"
+  },
+  "theme": {
+    "tokens": {
+      "surface-rgb": "251 251 255",
+      "text-rgb": "33 21 75",
+      "ink-rgb": "33 21 75",
+      "primary-rgb": "104 69 223",
+      "on-primary-rgb": "255 255 255",
+      "band-rgb": "32 19 77",
+      "on-band-rgb": "255 255 255",
+      "accent-rgb": "13 154 154",
+      "font-heading": "'Space Grotesk', 'Jost', sans-serif",
+      "font-body": "'Jost', Arial, sans-serif"
+    }
+  },
+  "nav": {
+    "links": [
+      { "label": "Our story", "href": "about.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "categories": [
+      { "label": "Shop all", "href": "collection.html" },
+      { "label": "Cleanse", "href": "collection.html?category=Cleanse" },
+      { "label": "Treat", "href": "collection.html?category=Treat" },
+      { "label": "Moisturize", "href": "collection.html?category=Moisturize" },
+      { "label": "Protect", "href": "collection.html?category=Protect" }
+    ],
+    "searchPlaceholder": "Search skin joy"
+  },
+  "labels": {
+    "shopAll": "Shop the collection",
+    "ourStory": "Our story",
+    "addToBag": "Add to bag",
+    "checkout": "Continue to checkout"
+  },
+  "home": {
+    "eyebrow": "Skincare with a little more joy",
+    "title": "Good skin days",
+    "emphasis": "start with joy.",
+    "description": "Small rituals, kind ingredients, and lovely little helpers for the skin you live in.",
+    "image": "/images/catalog/pink-cloud-moisturizer.svg",
+    "imageAlt": "Pink Cloud Moisturizer from Elice Skincare",
+    "featuredTitle": "Meet your new favorites",
+    "featuredDescription": "Feel-good formulas for every little ritual.",
+    "storyTitle": "More glow. Less guesswork.",
+    "storyText": "We make skincare feel effective, approachable, and joyful. Take what works, leave the pressure, and build a ritual that feels like you.",
+    "storyImage": "/images/catalog/mini-routine-set.svg",
+    "storyImageAlt": "The Tiny Joy Set skincare routine"
+  },
+  "about": {
+    "eyebrow": "A little about us",
+    "title": "Skincare that brings the good energy.",
+    "text": "We started Elice because the bathroom shelf could use more color, more comfort, and fewer complicated rules. Our formulas are made for the beautifully ordinary bits of life — late nights, early trains, post-gym faces, and everything in between."
+  },
+  "contact": {
+    "eyebrow": "Say hello",
+    "title": "Questions, curiosities, tiny skin emergencies?",
+    "description": "Tell us what is on your mind and a real Elice human will get back to you soon."
+  },
+  "footer": {
+    "note": "Small rituals, good ingredients, and a little more joy for the skin you live in.",
+    "links": [
+      { "label": "Shop all", "href": "collection.html" },
+      { "label": "Our story", "href": "about.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "copyright": "© 2026 Elice Skincare"
+  },
+  "routes": {
+    "/": {
+      "title": "Elice Skincare — joy for your skin",
+      "description": "Skincare with a little more joy.",
+      "components": [
+        { "id": "navigation.search-categories", "props": { "brand": "$site.brand", "links": "$nav.links", "categories": "$nav.categories", "searchPlaceholder": "$nav.searchPlaceholder" } },
+        { "id": "hero.editorial-split", "props": { "eyebrow": "$home.eyebrow", "title": "$home.title", "emphasis": "$home.emphasis", "description": "$home.description", "image": "$home.image", "imageAlt": "$home.imageAlt", "buttonLabel": "$labels.shopAll", "buttonHref": "collection.html" } },
+        { "id": "product-grid.standard", "props": { "eyebrow": "The feel-good shelf", "title": "$home.featuredTitle", "description": "$home.featuredDescription", "cardComponent": "product-card.minimal", "limit": 6 } },
+        { "id": "story.editorial", "props": { "eyebrow": "A note from Elice", "title": "$home.storyTitle", "text": "$home.storyText", "image": "$home.storyImage", "imageAlt": "$home.storyImageAlt", "linkLabel": "$labels.ourStory", "linkHref": "about.html" } },
+        { "id": "footer.editorial", "props": { "brand": "$site.brand", "note": "$footer.note", "links": "$footer.links", "email": "$site.email", "copyright": "$footer.copyright" } },
+        { "id": "cart.slide-over", "props": { "title": "Your bag", "checkoutLabel": "$labels.checkout" } },
+        { "id": "feedback.toast" }
+      ]
+    },
+    "/collection.html": {
+      "title": "Shop skincare | Elice Skincare",
+      "description": "Find your next feel-good skincare ritual.",
+      "components": [
+        { "id": "navigation.search-categories", "props": { "brand": "$site.brand", "links": "$nav.links", "categories": "$nav.categories", "searchPlaceholder": "$nav.searchPlaceholder" } },
+        { "id": "product-grid.standard", "props": { "eyebrow": "The Elice shelf", "title": "Shop all skincare", "description": "Kind ingredients. Good energy. Your new everyday favorites.", "cardComponent": "product-card.overlay", "search": true } },
+        { "id": "footer.editorial", "props": { "brand": "$site.brand", "note": "$footer.note", "links": "$footer.links", "email": "$site.email", "copyright": "$footer.copyright" } },
+        { "id": "cart.slide-over", "props": { "title": "Your bag", "checkoutLabel": "$labels.checkout" } },
+        { "id": "feedback.toast" }
+      ]
+    },
+    "/product.html": {
+      "title": "Product | Elice Skincare",
+      "description": "Explore an Elice feel-good skincare favorite.",
+      "components": [
+        { "id": "navigation.search-categories", "props": { "brand": "$site.brand", "links": "$nav.links", "categories": "$nav.categories", "searchPlaceholder": "$nav.searchPlaceholder" } },
+        { "id": "navigation.breadcrumb" },
+        { "id": "product-detail.standard", "props": { "eyebrow": "$site.brand", "addLabel": "$labels.addToBag" } },
+        { "id": "footer.editorial", "props": { "brand": "$site.brand", "note": "$footer.note", "links": "$footer.links", "email": "$site.email", "copyright": "$footer.copyright" } },
+        { "id": "cart.slide-over", "props": { "title": "Your bag", "checkoutLabel": "$labels.checkout" } },
+        { "id": "feedback.toast" }
+      ]
+    },
+    "/about.html": {
+      "title": "Our story | Elice Skincare",
+      "description": "Meet the people and principles behind Elice Skincare.",
+      "components": [
+        { "id": "navigation.search-categories", "props": { "brand": "$site.brand", "links": "$nav.links", "categories": "$nav.categories", "searchPlaceholder": "$nav.searchPlaceholder" } },
+        { "id": "story.editorial", "props": { "eyebrow": "$about.eyebrow", "title": "$about.title", "text": "$about.text" } },
+        { "id": "footer.editorial", "props": { "brand": "$site.brand", "note": "$footer.note", "links": "$footer.links", "email": "$site.email", "copyright": "$footer.copyright" } },
+        { "id": "cart.slide-over", "props": { "title": "Your bag", "checkoutLabel": "$labels.checkout" } },
+        { "id": "feedback.toast" }
+      ]
+    },
+    "/contact.html": {
+      "title": "Contact | Elice Skincare",
+      "description": "Get in touch with the Elice Skincare team.",
+      "components": [
+        { "id": "navigation.search-categories", "props": { "brand": "$site.brand", "links": "$nav.links", "categories": "$nav.categories", "searchPlaceholder": "$nav.searchPlaceholder" } },
+        { "id": "contact.basic-form", "props": { "eyebrow": "$contact.eyebrow", "title": "$contact.title", "description": "$contact.description", "email": "$site.email", "buttonLabel": "Send a little note" } },
+        { "id": "footer.editorial", "props": { "brand": "$site.brand", "note": "$footer.note", "links": "$footer.links", "email": "$site.email", "copyright": "$footer.copyright" } },
+        { "id": "cart.slide-over", "props": { "title": "Your bag", "checkoutLabel": "$labels.checkout" } },
+        { "id": "feedback.toast" }
+      ]
+    }
+  }
+}

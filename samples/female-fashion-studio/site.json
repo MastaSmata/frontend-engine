@@ -1,0 +1,564 @@
+{
+  "site": {
+    "brand": "Female Fashion Studio",
+    "legalName": "Female Fashion Studio",
+    "title": "Female Fashion Studio",
+    "tagline": "A modern womenswear house defined by grace, presence, and personal style.",
+    "currency": "NGN",
+    "currencySymbol": "₦",
+    "priceDecimals": 0,
+    "locale": "en-NG",
+    "whatsappNumber": "2340000000000",
+    "storageKey": "female-fashion-studio",
+    "nav": [
+      {
+        "label": "About us",
+        "href": "about.html"
+      },
+      {
+        "label": "Collection",
+        "href": "collection.html"
+      },
+      {
+        "label": "Contact us",
+        "href": "contact.html"
+      }
+    ],
+    "contact": {
+      "email": "hello@femalefashionstudio.example",
+      "press": "press@femalefashionstudio.example"
+    },
+    "social": [
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com",
+        "icon": "instagram"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com",
+        "icon": "facebook"
+      },
+      {
+        "label": "WhatsApp",
+        "href": "https://wa.me/0000000000",
+        "icon": "whatsapp"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "#"
+      },
+      {
+        "label": "Cookie Preferences",
+        "href": "#"
+      }
+    ]
+  },
+  "images": {
+    "logo": "/images/logo/logo.svg",
+    "favicon": "/favicon.svg",
+    "preloader": "/images/groundaq.svg",
+    "heroVideo": "/images/general/hero.mp4",
+    "heroPoster": "/images/general/hero-poster.webp",
+    "heroImage": "/images/general/hero.png",
+    "aboutVideo": "/images/general/about.mp4",
+    "aboutPoster": "/images/general/about-poster.webp",
+    "aboutImage": "/images/general/about-atelier.png",
+    "poweredBy": "/images/groundaq.svg"
+  },
+  "pages": {
+    "index": {
+      "description": "Female Fashion Studio — A modern womenswear house defined by grace, presence, and personal style."
+    },
+    "collection": {
+      "description": "Female Fashion Studio — Ankara gowns, jumpsuits, and two-piece sets designed with statement prints and a graceful silhouette."
+    },
+    "product": {
+      "description": "Female Fashion Studio — Ankara gowns, jumpsuits, and two-piece sets designed with statement prints and a graceful silhouette."
+    },
+    "about": {
+      "description": "Female Fashion Studio creates contemporary womenswear for those who understand the value of grace. Every silhouette is considered, every detail deliberate, and every garment designed to command attention without demanding it."
+    },
+    "contact": {
+      "description": "Female Fashion Studio — A modern womenswear house defined by grace, presence, and personal style."
+    }
+  },
+  "hero": {
+    "cta": "Explore Collection",
+    "scroll": "scroll"
+  },
+  "editorial": {
+    "count": 12,
+    "title": "Dress like a woman of <em>purpose.</em>",
+    "text": "Tailored for women who lead with purpose, move with intention, and understand the quiet power of presence."
+  },
+  "catalog": {
+    "reviews": "15K++ Positive Reviews",
+    "title": "your style.<br>your measure.<br><em>your signature.</em>"
+  },
+  "about": {
+    "eyebrow": "The Manifesto",
+    "title": "Crafted for the woman who knows who she is—and where she is <em>going.</em>",
+    "text": "Female Fashion Studio creates contemporary womenswear for those who understand the value of grace. Every silhouette is considered, every detail deliberate, and every garment designed to command attention without demanding it.",
+    "imageAlt": "Manifesto Atelier",
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Precision Tailoring & Fine Fabrics"
+      },
+      {
+        "value": "01",
+        "label": "Private Styling Experience"
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "icon": "truck",
+      "title": "Complimentary Global Delivery",
+      "text": "Insured express shipping across all major metropolitan capitals."
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "White Glove Returns",
+      "text": "Complimentary concierge pickup for all returns within 30 days."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Lifetime Archival Warranty",
+      "text": "Complimentary garment restoration and structural maintenance."
+    }
+  ],
+  "contact": {
+    "eyebrow": "Contact us",
+    "title": "Speak with the atelier.",
+    "pressLabel": "Press:"
+  },
+  "footer": {
+    "navigateTitle": "Navigate",
+    "links": [
+      {
+        "label": "About",
+        "href": "/#about"
+      },
+      {
+        "label": "Collection",
+        "href": "/#collection"
+      },
+      {
+        "label": "Private Styling",
+        "href": "/private-styling.html"
+      },
+      {
+        "label": "Journal",
+        "href": "/journal.html"
+      }
+    ],
+    "followTitle": "Follow the House",
+    "newsletterTitle": "The Inner Circle",
+    "newsletterText": "Private access to new collections, styling sessions, limited pieces, and Female Fashion Studio events.",
+    "emailLabel": "Your email address",
+    "emailAria": "Email address",
+    "emailPlaceholder": "YOUR EMAIL ADDRESS",
+    "join": "Join the House",
+    "rights": "ALL RIGHTS RESERVED."
+  },
+  "disclaimer": {
+    "text": "The pictures used in this website were extracted from Pinterest and other public websites for sample purposes only. We do not claim ownership of any picture used in this sample website.",
+    "poweredBy": "Powered by",
+    "poweredByAlt": "Groundaq"
+  },
+  "cart": {
+    "title": "Shopping Bag",
+    "close": "Close",
+    "subtotal": "Subtotal",
+    "checkoutWhatsapp": "Checkout - Whatsapp",
+    "checkoutCard": "Checkout - Debit Card",
+    "empty": "Your bag is currently empty."
+  },
+  "collectionNav": {
+    "ariaLabel": "Collection navigation",
+    "categories": "Categories",
+    "searchLabel": "Search collection",
+    "searchPlaceholder": "Search collection..."
+  },
+  "ui": {
+    "loading": "Loading",
+    "add": "Add",
+    "addToWishlist": "Add to wishlist",
+    "view": "View",
+    "backToCollection": "Back to Collection",
+    "breadcrumb": "Breadcrumb",
+    "viewProduct": "View {title}",
+    "viewImage": "View image {number}",
+    "imageAlt": "{title} view {number}",
+    "selected": "Selected:",
+    "quantity": "Quantity",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "productInfo": "Product information",
+    "careInstructions": "Care Instructions",
+    "remove": "Remove",
+    "addedToCart": "Added {title} to your collection.",
+    "addedToWishlist": "Added {title} to wishlist.",
+    "subscribed": "Subscribed successfully.",
+    "checkoutStarted": "Proceeding to secure checkout...",
+    "whatsappGreeting": "Hello {brand}, I would like to order:",
+    "whatsappTotal": "Total: {total}",
+    "comingSoon": "New pieces arriving soon.",
+    "unavailable": "The collection is temporarily unavailable. Please try again shortly.",
+    "noMatch": "No pieces match your selection.",
+    "notFound": "This piece could not be found.",
+    "viewCollection": "View the collection"
+  },
+  "product": {
+    "colorName": "Color",
+    "sizeName": "Size",
+    "overviewTab": "Overview & Specifications",
+    "sizeTab": "Size Reference",
+    "specLabels": [
+      "Materials",
+      "Fabric Features",
+      "Style",
+      "Design Breakdown",
+      "Occasions"
+    ],
+    "specFallback": "Specification",
+    "sizeChart": {
+      "title": "Women's Size Reference",
+      "subtitle": "Standard adult women's body measurements",
+      "unit": "cm / in",
+      "caption": "Standard adult women's clothing size reference chart",
+      "columns": [
+        "Size",
+        "Bust",
+        "Waist",
+        "Hip"
+      ],
+      "rows": [
+        [
+          "XS",
+          "80–84 / 31.5–33",
+          "62–66 / 24.5–26",
+          "88–92 / 34.5–36"
+        ],
+        [
+          "S",
+          "85–89 / 33.5–35",
+          "67–71 / 26.5–28",
+          "93–97 / 36.5–38"
+        ],
+        [
+          "M",
+          "90–94 / 35.5–37",
+          "72–76 / 28.5–30",
+          "98–102 / 38.5–40"
+        ],
+        [
+          "L",
+          "95–100 / 37.5–39.5",
+          "77–82 / 30.5–32",
+          "103–108 / 40.5–42.5"
+        ],
+        [
+          "XL",
+          "101–107 / 40–42",
+          "83–89 / 32.5–35",
+          "109–115 / 43–45"
+        ],
+        [
+          "XXL",
+          "108–114 / 42.5–45",
+          "90–97 / 35.5–38",
+          "116–122 / 45.5–48"
+        ],
+        [
+          "3XL",
+          "115–121 / 45.5–47.5",
+          "98–105 / 38.5–41",
+          "123–129 / 48.5–51"
+        ]
+      ],
+      "note": "Body measurements are shown in centimetres, with inches after the slash. Measure the body rather than the garment. Fit can vary by cut and silhouette."
+    }
+  },
+  "id": "female-fashion-studio",
+  "data": {
+    "products": "data/products.json"
+  },
+  "theme": {
+    "tokens": {
+      "surface-rgb": "245 239 230",
+      "text-rgb": "17 17 17",
+      "ink-rgb": "90 31 43",
+      "primary-rgb": "90 31 43",
+      "on-primary-rgb": "245 239 230",
+      "band-rgb": "90 31 43",
+      "on-band-rgb": "245 239 230",
+      "accent-rgb": "185 139 145",
+      "font-heading": "\"Cormorant Garamond\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "font-body": "\"Jost\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+      "overlay-rgb": "17 17 17",
+      "surface": "rgb(var(--surface-rgb))",
+      "text": "rgb(var(--text-rgb))",
+      "ink": "rgb(var(--ink-rgb))",
+      "primary": "rgb(var(--primary-rgb))",
+      "on-primary": "rgb(var(--on-primary-rgb))",
+      "band": "rgb(var(--band-rgb))",
+      "on-band": "rgb(var(--on-band-rgb))",
+      "accent": "rgb(var(--accent-rgb))",
+      "overlay": "rgb(var(--overlay-rgb))",
+      "bg": "var(--surface)",
+      "fg": "var(--text)",
+      "line": "rgb(var(--ink-rgb) / 0.16)",
+      "blush": "rgb(var(--accent-rgb) / 0.14)",
+      "muted": "rgb(var(--text-rgb) / 0.64)",
+      "on-band-soft": "rgb(var(--on-band-rgb) / 0.82)",
+      "line-on-band": "rgb(var(--on-band-rgb) / 0.2)",
+      "primary-hover": "var(--overlay)",
+      "r-xs": "10px",
+      "r-sm": "8px",
+      "r-md": "14px",
+      "r-lg": "22px",
+      "r-arch": "9999px",
+      "shadow": "0 22px 44px -24px rgb(var(--band-rgb) / 0.5)"
+    }
+  },
+  "routes": {
+    "/": {
+      "title": "Female Fashion Studio",
+      "description": "Female Fashion Studio — A modern womenswear house defined by grace, presence, and personal style.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "hero.editorial-split",
+          "props": {
+            "eyebrow": "$site.tagline",
+            "title": "$site.brand",
+            "description": "$site.tagline",
+            "image": "$images.heroImage",
+            "imageAlt": "$site.brand",
+            "buttonLabel": "$hero.cta",
+            "buttonHref": "collection.html"
+          }
+        },
+        {
+          "id": "product-grid.standard",
+          "props": {
+            "eyebrow": "The collection",
+            "title": "Featured pieces",
+            "description": "$catalog.reviews",
+            "cardComponent": "product-card.editorial",
+            "featuredOnly": true,
+            "limit": 8
+          }
+        },
+        {
+          "id": "story.editorial",
+          "props": {
+            "eyebrow": "$about.eyebrow",
+            "title": "$about.title",
+            "text": "$about.text",
+            "image": "$images.aboutImage",
+            "imageAlt": "$about.imageAlt",
+            "linkLabel": "Discover our story",
+            "linkHref": "about.html"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/collection.html": {
+      "title": "Collection | Female Fashion Studio",
+      "description": "Female Fashion Studio — Ankara gowns, jumpsuits, and two-piece sets designed with statement prints and a graceful silhouette.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "product-grid.standard",
+          "props": {
+            "eyebrow": "Shop",
+            "title": "The collection",
+            "description": "$catalog.reviews",
+            "cardComponent": "product-card.editorial",
+            "search": true
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/product.html": {
+      "title": "Product | Female Fashion Studio",
+      "description": "Female Fashion Studio — Ankara gowns, jumpsuits, and two-piece sets designed with statement prints and a graceful silhouette.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "product-detail.standard",
+          "props": {
+            "eyebrow": "$site.brand",
+            "addLabel": "$ui.addToCart"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/about.html": {
+      "title": "About | Female Fashion Studio",
+      "description": "Female Fashion Studio creates contemporary womenswear for those who understand the value of grace. Every silhouette is considered, every detail deliberate, and every garment designed to command attention without demanding it.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "story.editorial",
+          "props": {
+            "eyebrow": "$about.eyebrow",
+            "title": "$about.title",
+            "text": "$about.text",
+            "image": "$images.aboutImage",
+            "imageAlt": "$about.imageAlt"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    },
+    "/contact.html": {
+      "title": "Contact | Female Fashion Studio",
+      "description": "Female Fashion Studio — A modern womenswear house defined by grace, presence, and personal style.",
+      "components": [
+        {
+          "id": "navigation.editorial-centered",
+          "props": {
+            "brand": "$site.brand",
+            "links": "$site.nav",
+            "showCart": true
+          }
+        },
+        {
+          "id": "contact.basic-form",
+          "props": {
+            "eyebrow": "Contact",
+            "title": "Get in touch",
+            "description": "$site.tagline",
+            "email": "$site.contact.email",
+            "buttonLabel": "Send message"
+          }
+        },
+        {
+          "id": "footer.editorial",
+          "props": {
+            "brand": "$site.brand",
+            "note": "$site.tagline",
+            "links": "$site.nav",
+            "email": "$site.contact.email",
+            "copyright": "$site.legalName"
+          }
+        },
+        {
+          "id": "cart.slide-over",
+          "props": {
+            "title": "$cart.title",
+            "checkoutLabel": "$cart.checkoutWhatsapp"
+          }
+        }
+      ]
+    }
+  }
+}

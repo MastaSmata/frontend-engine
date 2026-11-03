@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["id", "price", "image"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string" },
+    "name": { "type": "string" },
+    "category": { "type": "string" },
+    "price": { "type": "number", "minimum": 0 },
+    "image": { "type": "string" },
+    "badge": { "type": "string" },
+    "href": { "type": "string" },
+    "productHref": { "type": "string" }
+  }
+}

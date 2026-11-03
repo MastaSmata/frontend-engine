@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["brand"],
+  "properties": {
+    "brand": { "type": "string", "minLength": 1 },
+    "note": { "type": "string" },
+    "links": { "type": "array", "items": { "type": "object", "required": ["label", "href"], "properties": { "label": { "type": "string" }, "href": { "type": "string" } } } },
+    "email": { "type": "string" },
+    "copyright": { "type": "string" }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "product-detail.standard",
+  "name": "Standard product detail",
+  "type": "product-detail",
+  "template": "product-detail.html",
+  "style": "product-detail.css",
+  "schema": "schema.json",
+  "script": "component.js",
+  "dependencies": ["product-gallery.thumbnails", "quantity-selector.standard", "product-info.accordion"],
+  "requiresData": ["products"]
+}

@@ -1,0 +1,2 @@
+[data-component-id="button.primary"] .primary-button { display:inline-flex; align-items:center; gap:.75rem; padding:.85rem 1.1rem; background:var(--site-primary); color:var(--site-on-primary); font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; }
+[data-component-id="button.primary"] .primary-button:hover { filter:brightness(1.08); }

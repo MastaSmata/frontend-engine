@@ -1,0 +1,1 @@
+{"id":"quantity-selector.standard","name":"Accessible quantity selector","type":"quantity-selector","template":"quantity.html","style":"quantity.css","schema":"schema.json","script":"component.js"}

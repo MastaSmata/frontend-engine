@@ -1,0 +1,1 @@
+{"id":"feedback.toast","name":"Toast notification","type":"feedback","template":"toast.html","style":"toast.css","schema":"schema.json","script":"component.js"}

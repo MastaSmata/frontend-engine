@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "quotes"],
+  "properties": {
+    "eyebrow": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "quotes": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["quote", "author", "context"], "properties": { "quote": { "type": "string" }, "author": { "type": "string" }, "context": { "type": "string" } }, "additionalProperties": false } }
+  }
+}

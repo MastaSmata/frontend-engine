@@ -1,0 +1,28 @@
+{
+  "name": "groundaq-frontend-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:all": "npm run validate && node scripts/build-all.mjs",
+    "build:previews": "npm run validate && node scripts/build-previews.mjs && npm run validate:isolation",
+    "validate:components": "node scripts/validate-architecture.mjs",
+    "validate:tenant": "node scripts/validate-tenant.mjs",
+    "validate:isolation": "node scripts/validate-isolation.mjs",
+    "validate:architecture": "node scripts/validate-architecture.mjs",
+    "validate": "npm run validate:architecture && npm run validate:tenant",
+    "catalog:components": "node scripts/export-component-catalog.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/jost": "^5.3.0",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.2"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

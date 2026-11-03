@@ -1,0 +1,16 @@
+[data-component-id="cart.slide-over"] .cart-drawer { position:fixed; z-index:100; top:0; right:0; width:min(27rem,100vw); height:100dvh; display:flex; flex-direction:column; padding:1.25rem; background:var(--site-bg); box-shadow:0 0 3rem rgb(0 0 0 / .18); transform:translateX(105%); transition:transform .25s ease; }
+[data-component-id="cart.slide-over"] .cart-drawer.is-open { transform:translateX(0); }
+[data-component-id="cart.slide-over"] .cart-drawer__head,[data-component-id="cart.slide-over"] .cart-drawer__foot>div { display:flex; justify-content:space-between; align-items:center; }
+[data-component-id="cart.slide-over"] .cart-drawer__head { border-bottom:1px solid var(--line); padding-bottom:1rem; }
+[data-component-id="cart.slide-over"] h2 { margin:0; font:500 1.7rem var(--font-heading); }
+[data-component-id="cart.slide-over"] .cart-drawer__head button { border:0; background:none; font-size:1.5rem; }
+[data-component-id="cart.slide-over"] .cart-drawer__items { flex:1; overflow:auto; padding:1rem 0; }
+[data-component-id="cart.slide-over"] .cart-drawer__foot { display:grid; gap:1rem; border-top:1px solid var(--line); padding-top:1rem; }
+[data-component-id="cart.slide-over"] .cart-drawer__foot button { border:0; padding:.9rem; background:var(--site-primary); color:var(--site-on-primary); }
+[data-component-id="cart.slide-over"] .cart-scrim { position:fixed; z-index:99; inset:0; visibility:hidden; opacity:0; border:0; background:rgb(0 0 0 / .35); transition:opacity .25s,visibility .25s; }
+:has([data-component-id="cart.slide-over"] .cart-drawer.is-open) [data-component-id="cart.slide-over"] .cart-scrim { visibility:visible; opacity:1; }
+[data-component-id="cart.slide-over"] .cart-line { display:grid; grid-template-columns:3.5rem 1fr auto; gap:.8rem; align-items:center; padding:.7rem 0; border-bottom:1px solid var(--line); }
+[data-component-id="cart.slide-over"] .cart-line img { width:3.5rem; aspect-ratio:1; object-fit:cover; }
+[data-component-id="cart.slide-over"] .cart-line strong,[data-component-id="cart.slide-over"] .cart-line span { display:block; font-size:.8rem; }
+[data-component-id="cart.slide-over"] .cart-line span { margin-top:.3rem; color:var(--muted); }
+[data-component-id="cart.slide-over"] .cart-line button { border:0; background:none; font-size:1.25rem; }

@@ -1,0 +1,1 @@
+{"id":"editorial.marquee","name":"Editorial image marquee","type":"editorial","template":"marquee.html","style":"marquee.css","schema":"schema.json","script":"component.js","requiresData":["editorial"]}

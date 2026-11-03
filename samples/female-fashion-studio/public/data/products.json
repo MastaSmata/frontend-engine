@@ -1,0 +1,574 @@
+[
+  {
+    "id": "prod-01",
+    "title": "CROP-TOP & PALAZO",
+    "category": "Ankara 2-Piece",
+    "price": 1250,
+    "image": "/images/products/blouse-pants01.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A contemporary Ankara crop-top and palazo set designed with a relaxed silhouette and statement print.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/blouse-pants01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["L", "XL", "M"],
+    "care": [
+      "Hand wash or use a gentle machine cycle",
+      "Wash with similar colors",
+      "Iron on low to medium heat"
+    ]
+  },
+  {
+    "id": "prod-02",
+    "title": "CROP-TOP & PALAZO II",
+    "category": "Ankara 2-Piece",
+    "price": 1250,
+    "image": "/images/products/blouse-pants04.jpg",
+    "badge": "LIMITED EDITION",
+    "description": "A bold Ankara crop-top and palazo combination with a flowing wide-leg silhouette.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/blouse-pants04.jpg",
+      "/images/products/thumbnails/blouse-pants04/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["L", "XL", "M"],
+    "care": [
+      "Hand wash or use a gentle machine cycle",
+      "Wash with similar colors",
+      "Iron on low to medium heat"
+    ]
+  },
+  {
+    "id": "prod-03",
+    "title": "CROP-TOP & PALAZO III",
+    "category": "Ankara 2-Piece",
+    "price": 1250,
+    "image": "/images/products/blouse-pants05.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A structured Ankara two-piece featuring a fitted crop top and relaxed palazo trousers.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/blouse-pants05.jpg"
+    ],
+    "colors": [],
+    "sizes": ["L", "XL", "M"],
+    "care": [
+      "Hand wash or use a gentle machine cycle",
+      "Wash with similar colors",
+      "Iron on low to medium heat"
+    ]
+  },
+  {
+    "id": "prod-04",
+    "title": "CROP-TOP & PALAZO IV",
+    "category": "Ankara 2-Piece",
+    "price": 1250,
+    "image": "/images/products/blouse-pants06.avif",
+    "badge": "BESTSELLER",
+    "description": "A vibrant Ankara blouse and palazo set combining a refined upper silhouette with fluid trousers.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/blouse-pants06.avif",
+      "/images/products/thumbnails/blouse-pant06/01.avif",
+      "/images/products/thumbnails/blouse-pant06/02.avif",
+      "/images/products/thumbnails/blouse-pant06/03.avif"
+    ],
+    "colors": [],
+    "sizes": ["L", "XL", "M"],
+    "care": [
+      "Hand wash or use a gentle machine cycle",
+      "Wash with similar colors",
+      "Iron on low to medium heat"
+    ]
+  },
+  {
+    "id": "prod-05",
+    "title": "CROP-TOP & PALAZO V",
+    "category": "Ankara 2-Piece",
+    "price": 1250,
+    "image": "/images/products/blouse-pants07.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A modern Ankara two-piece with a statement blouse and wide-leg palazo trousers.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/blouse-pants07.jpg",
+      "/images/products/thumbnails/blouse-pant07/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["L", "XL", "M"],
+    "care": [
+      "Hand wash or use a gentle machine cycle",
+      "Wash with similar colors",
+      "Iron on low to medium heat"
+    ]
+  },
+  {
+    "id": "prod-06",
+    "title": "ANKARA 2-PIECE SET",
+    "category": "2-Piece",
+    "price": 1350,
+    "image": "/images/products/2Piece-set01.jpg",
+    "badge": "FEATURED",
+    "description": "A coordinated Ankara two-piece set designed for a clean, contemporary statement.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/2Piece-set01.jpg",
+      "/images/products/thumbnails/2piece-set01/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash inside out to preserve the print",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-07",
+    "title": "ANKARA 2-PIECE SET II",
+    "category": "2-Piece",
+    "price": 1350,
+    "image": "/images/products/2piece-set02.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A versatile Ankara two-piece ensemble balancing a structured top with a relaxed lower silhouette.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/2piece-set02.jpg",
+      "/images/products/thumbnails/2piece-set02/01.jpg",
+      "/images/products/thumbnails/2piece-set02/02.jpg",
+      "/images/products/thumbnails/2piece-set02/03.jpg",
+      "/images/products/thumbnails/2piece-set02/04.jpg"
+      
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash inside out to preserve the print",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-08",
+    "title": "BUBU GOWN",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu01.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A flowing Ankara Bubu gown designed with a generous silhouette and effortless movement.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-09",
+    "title": "BUBU GOWN II",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu02.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A statement Ankara Bubu gown featuring a relaxed fit and dramatic flowing volume.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu02.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-10",
+    "title": "BUBU GOWN III",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu03.jpg",
+    "badge": "BESTSELLER",
+    "description": "A bold Ankara Bubu gown combining an oversized silhouette with a distinctive patterned finish.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu03.jpg",
+      "/images/products/thumbnails/bubu03/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-11",
+    "title": "BUBU GOWN IV",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu04.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "An elegant Ankara Bubu gown cut for comfort, movement and a commanding silhouette.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu04.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-12",
+    "title": "BUBU GOWN V",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu05.jpg",
+    "badge": "LIMITED EDITION",
+    "description": "A statement Bubu gown crafted from vibrant Ankara fabric with a loose, graceful silhouette.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu05.jpg",
+      "/images/products/thumbnails/bubu05/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-13",
+    "title": "BUBU GOWN VI",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu06.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A relaxed Ankara Bubu gown designed for effortless elegance and everyday versatility.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu06.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-14",
+    "title": "BUBU GOWN VII",
+    "category": "Bubu Gown",
+    "price": 1500,
+    "image": "/images/products/bubu07.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A contemporary Ankara Bubu gown with a flowing profile and bold textile character.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/bubu07.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Do not wring aggressively",
+      "Iron on low heat from the reverse side"
+    ]
+  },
+  {
+    "id": "prod-15",
+    "title": "ANKARA GOWN",
+    "category": "Ankara Gowns",
+    "price": 1600,
+    "image": "/images/products/gown01.jpg",
+    "badge": "FEATURED",
+    "description": "A refined Ankara gown designed with a feminine silhouette and distinctive patterned fabric.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/gown01.jpg",
+      "/images/products/thumbnails/gown01/01.jpg",
+      "/images/products/thumbnails/gown01/02.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-16",
+    "title": "ANKARA GOWN II",
+    "category": "Ankara Gowns",
+    "price": 1600,
+    "image": "/images/products/gown02.jpg",
+    "badge": "BESTSELLER",
+    "description": "A statement Ankara gown combining traditional textile character with a modern feminine cut.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/gown02.jpg",
+      "/images/products/thumbnails/gown02/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-17",
+    "title": "ANKARA GOWN III",
+    "category": "Ankara Gowns",
+    "price": 1600,
+    "image": "/images/products/gown03.avif",
+    "badge": "NEW ARRIVAL",
+    "description": "A contemporary Ankara gown featuring a graceful silhouette and expressive textile pattern.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/gown03.avif",
+      "/images/products/thumbnails/gown03/01.jpeg",
+      "/images/products/thumbnails/gown03/02.avif",
+      "/images/products/thumbnails/gown03/03.avif"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-18",
+    "title": "ANKARA GOWN IV",
+    "category": "Ankara Gowns",
+    "price": 1600,
+    "image": "/images/products/gown04.jpg",
+    "badge": "LIMITED EDITION",
+    "description": "A bold Ankara gown with a polished silhouette and striking textile composition.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/gown04.jpg",
+      "/images/products/thumbnails/gown04/01.jpg",
+      "/images/products/thumbnails/gown04/02.jpg",
+      "/images/products/thumbnails/gown04/03.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-19",
+    "title": "ANKARA GOWN V",
+    "category": "Ankara Gowns",
+    "price": 1600,
+    "image": "/images/products/gown05.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A versatile Ankara gown designed with a clean feminine profile and expressive fabric.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/gown05.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-20",
+    "title": "ANKARA GOWN VI",
+    "category": "Ankara Gowns",
+    "price": 1600,
+    "image": "/images/products/gown06.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A sophisticated Ankara gown designed to combine cultural textile identity with contemporary styling.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/gown06.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-21",
+    "title": "ANKARA JUMPSUIT",
+    "category": "Ankara Jump Suits",
+    "price": 1550,
+    "image": "/images/products/jump-suit01.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A contemporary Ankara jumpsuit designed with a streamlined silhouette and statement textile.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/jump-suit01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-22",
+    "title": "ANKARA JUMPSUIT II",
+    "category": "Ankara Jump Suits",
+    "price": 1550,
+    "image": "/images/products/jump-suit02.avif",
+    "badge": "BESTSELLER",
+    "description": "A bold Ankara jumpsuit combining a confident silhouette with vibrant patterned fabric.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/jump-suit02.avif",
+      "/images/products/thumbnails/jumpsuit02/01.avif",
+      "/images/products/thumbnails/jumpsuit02/02.avif",
+      "/images/products/thumbnails/jumpsuit02/03.avif"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-23",
+    "title": "ANKARA JUMPSUIT III",
+    "category": "Ankara Jump Suits",
+    "price": 1550,
+    "image": "/images/products/jump-suit03.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A stylish Ankara jumpsuit featuring a modern cut and distinctive African textile pattern.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/jump-suit03.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-24",
+    "title": "ANKARA JUMPSUIT IV",
+    "category": "Ankara Jump Suits",
+    "price": 1550,
+    "image": "/images/products/jump-suit04.jpg",
+    "badge": "FEATURED",
+    "description": "A statement Ankara jumpsuit with a structured upper silhouette and fluid full-length profile.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/jump-suit04.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-25",
+    "title": "ANKARA JUMPSUIT V",
+    "category": "Ankara Jump Suits",
+    "price": 1550,
+    "image": "/images/products/jump-suit05.jpg",
+    "badge": "NEW ARRIVAL",
+    "description": "A contemporary Ankara jumpsuit designed for a confident silhouette and effortless styling.",
+    "featured": false,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/jump-suit05.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  },
+  {
+    "id": "prod-26",
+    "title": "ANKARA JUMPSUIT VI",
+    "category": "Ankara Jump Suits",
+    "price": 1550,
+    "image": "/images/products/jump-suit06.jpg",
+    "badge": "LIMITED EDITION",
+    "description": "A striking Ankara jumpsuit featuring a polished silhouette and bold patterned fabric.",
+    "featured": true,
+    "status": "active",
+    "thumbnails": [
+      "/images/products/jump-suit06.jpg",
+      "/images/products/thumbnails/jump-suit06/01.jpg"
+    ],
+    "colors": [],
+    "sizes": ["M", "L", "XL"],
+    "care": [
+      "Hand wash with mild detergent",
+      "Wash with similar colors",
+      "Iron on low heat"
+    ]
+  }
+]

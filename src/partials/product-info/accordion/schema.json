@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"properties":{"detailsLabel":{"type":"string"},"specificationsLabel":{"type":"string"},"ingredientsLabel":{"type":"string"},"careLabel":{"type":"string"},"shippingLabel":{"type":"string"},"shippingText":{"type":"string"}}}
