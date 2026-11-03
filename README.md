@@ -1,6 +1,6 @@
-# GroundAQ Reusable Frontend Engine
+# GRIM Reusable Frontend Engine
 
-GroundAQ builds static, multi-page customer websites from reusable page sections. A website is a JSON composition of registered components, content, data, and design tokens. There is no separate runtime or template family for each kind of business.
+GRIM builds static, multi-page customer websites from reusable page sections. A website is a JSON composition of registered components, content, data, and design tokens. There is no separate runtime or template family for each kind of business.
 
 An AI agent can combine sections from any part of the catalog, for example a navigation bar, a perfume-focused hero, a product grid, and a shared footer. If the catalog does not contain the required design or behavior, add a new reusable component package and select it by ID in the site configuration.
 
